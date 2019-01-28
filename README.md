@@ -14,7 +14,8 @@
  
  1. [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data](https://ieeexplore.ieee.org/abstract/document/8553484/)
  
- ### [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
+ 
+ [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
  
  
  
