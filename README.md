@@ -1,6 +1,4 @@
 
-
- 
  I am currently pursuing a joint Master degree, M.Sc in "Applied Image & Signal Processing" at the University of Salzburg and SUAS.
  
  ## Research Interest:
@@ -12,7 +10,6 @@
  - Medical Imaging
  
  ## Publications:
- 
  
  - [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data](https://ieeexplore.ieee.org/abstract/document/8553484/)
  
