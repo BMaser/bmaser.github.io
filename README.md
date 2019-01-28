@@ -1,9 +1,18 @@
-<!--- # [B. Maser](bmaser.github.io) -->
+
  # <span style="color:blue"> [B. Maser](bmaser.github.io) </span>
  
  I am currently pursuing a joint Master degree in Applied Image & Signal Processing at the University of Salzburg and SUAS.
  
-
+ ## Research Interest:
+ - Computer vision
+ - Machine Learning 
+ - Pattern Recognition
+ - Biometrics
+ - Media Security
+ 
+ ## Publications:
+ 
+ 1. [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data](https://ieeexplore.ieee.org/abstract/document/8553484/)
  
 <!---
 
