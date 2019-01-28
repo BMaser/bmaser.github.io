@@ -2,30 +2,25 @@
  I am currently pursuing a joint Master degree, M.Sc in "Applied Image & Signal Processing" at the University of Salzburg and SUAS.
   </p>
 <p>
-<br> 
-Research Interest:
-</br>
+                <br> Research Interest:
+				  </br>
  - Computer vision
  - Machine Learning 
  - Pattern Recognition
  - Biometrics
  - Media Security
  - Medical Imaging
- 
  </p>
  
- <p>
- <br>
-Publications:
-</br>
+ <p><br>
+Publications:</br>
  
  - [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data](https://ieeexplore.ieee.org/abstract/document/8553484/)
- 
   </p>
  
-  <p>
+ 
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
-   </p>
+ 
  
  
  
