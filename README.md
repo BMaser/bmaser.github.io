@@ -1,5 +1,5 @@
 
- # <span style="color:blue"> [B. Maser](bmaser.github.io) </span>
+
  
  I am currently pursuing a joint Master degree, M.Sc in "Applied Image & Signal Processing" at the University of Salzburg and SUAS.
  
