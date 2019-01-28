@@ -1,2 +1,8 @@
+
+
+# Site settings
+title: B. Maser
+description: <p><<br>Department of Computer Science<br>University of Salzburg</p>
+email: 
+markdown: kramdown
 theme: jekyll-theme-minimal
-B. Maser
