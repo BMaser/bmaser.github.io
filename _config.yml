@@ -1,16 +1,13 @@
 
 
 # Site settings
-
 title: B. Maser
-
 description: <p>
                 <br>
-                Department of Computer Science
-                <br>
-                University of Salzburg
-             </p>
-email: babak.maser@stud.sbg.ac.at
-
+                        Department of Computer Science
+                  </br>
+                  University of Salzburg
+            </p>
+email: 
 markdown: kramdown
 theme: jekyll-theme-minimal
