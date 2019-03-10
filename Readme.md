@@ -18,11 +18,11 @@
 	 - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG)
 
 - PRNU-based Detection of Finger Vein Presentation Attacks [Accepted]
-	 - Authors: Babak Maser Dominik, Sollinger, Andreas Uhl
+	 - Authors: Babak Maser, Dominik, Sollinger, Andreas Uhl
 	 - Conference: IWBF 2019
 
 - PRNU-based finger vein sensor identification: On the effect of different sensor croppings [Accepted]
-	 - Authors: Dominik Sollinger,Babak Maser, Andreas Uhl
+	 - Authors: Dominik Sollinger, Babak Maser, Andreas Uhl
 	 - Conference: ICB 2019
 
  
