@@ -14,9 +14,11 @@
  
 - [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data ](https://ieeexplore.ieee.org/abstract/document/8553484/) , [September 2018]
 
-	 <p> - Authors: Tamara Lipowski, B. Maser, J. Hämmerle-Uhl, Andreas Uhl</p>
-	 <p> - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG)</p>
-	 <p> - Publisher: IEEE</p>
+	 <p> 
+	 - Authors: Tamara Lipowski, B. Maser, J. Hämmerle-Uhl, Andreas Uhl
+	 - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG)
+	 - Publisher: IEEE
+	 </p>
 
 
  
