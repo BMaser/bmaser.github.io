@@ -17,6 +17,11 @@
 	 - Authors: T. Lipowski, B. Maser, J. Hämmerle-Uhl, Andreas Uhl
 	 - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG)
 
+- PRNU-based Detection of Finger Vein Presentation Attacks [Accepted by IWBF 2019]
+Authors:,Babak Maser Dominik, Sollinger, Andreas Uhl
+
+- PRNU-based finger vein sensor identification: On the effect of different sensor croppings [Accepted by ICB 2019]
+Authors: Dominik Sollinger,Babak Maser, Andreas Uhl
 
 
  
