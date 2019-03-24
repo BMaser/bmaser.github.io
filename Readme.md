@@ -7,8 +7,10 @@
 
 ## Methodology (Technical Approach) : 
 	- Conventional (Classical) and Deep Learning approaches
+	
 ## Programming Language: 
 	- Python 2.7 and 3.x
+	
 ## Tools : 
 	- Pycharm, Jupyter Notebook, Gnu-plot, matlibplot
 
