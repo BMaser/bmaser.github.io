@@ -3,8 +3,7 @@
 
 ## Research Interest:
 
- - Computer vision     - Pattern Recognition	- Media Security
- - Machine Learning    - Biometrics  			- Medical Imaging
+ - Computer vision and Image Processing, Pattern Recognition, Media Security, Machine Learning, Biometrics, Medical Imaging
 
 
 ## Publications:
