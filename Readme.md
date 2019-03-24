@@ -24,7 +24,10 @@
 - **PRNU-based finger vein sensor identification: On the effect of different sensor croppings [Accepted]**
 	 - Authors: Dominik Sollinger, _Babak Maser_, Andreas Uhl
 	 - Conference: ICB 2019
-
+	 
+- **PRNU-based Finger Vein Sensor Identification in the Presence of Presentation Attack Data [Submitted]**
+	 - Authors: _Babak Maser_, Dominik, Sollinger, Andreas Uhl
+	 - Conference: ARW/OAGM 2019
  
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
