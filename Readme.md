@@ -28,8 +28,8 @@
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
  
- ### Technical Approach : 
-- Conventional (Classical) and Deep Learning approaches
+### Technical Approach : 
+- Conventional (Classical) and Deep Learning
 	
 ### Programming Language: 
 - Python 2.7 and 3.x
