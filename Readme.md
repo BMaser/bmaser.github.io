@@ -5,14 +5,6 @@
 
  - Image Processing & Computer vision  , Machine Learning, Pattern Recognition, Medical Imaging, Media Security,  Biometrics
 
-### Methodology (Technical Approach) : 
-- Conventional (Classical) and Deep Learning approaches
-	
-### Programming Language: 
-- Python 2.7 and 3.x
-	
-### Tools : 
-- Pycharm, Jupyter Notebook, Gnu-plot, matlibplot, Latex
 
 ## Publications:
  
@@ -36,4 +28,11 @@
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
  
- 
+ ### Technical Approach : 
+- Conventional (Classical) and Deep Learning approaches
+	
+### Programming Language: 
+- Python 2.7 and 3.x
+	
+### Tools : 
+- Pycharm, Jupyter Notebook, Gnu-plot, matlibplot, Latex
