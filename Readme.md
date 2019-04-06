@@ -1,7 +1,7 @@
 ﻿
 
 
-![][image_ref_v5r0g4ja]
+![](fig_Salzburg_night.jpg)
  
  
  I am currently student of a joint Master degree program, M.Sc in "Applied Image & Signal Processing" at the University of Salzburg and SUAS.
