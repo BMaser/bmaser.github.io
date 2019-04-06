@@ -24,6 +24,10 @@
 - **PRNU-based Finger Vein Sensor Identification in the Presence of Presentation Attack Data [Submitted]**
 	 - Authors: _Babak Maser_, Dominik, Sollinger, Andreas Uhl
 	 - Conference: ARW/OAGM 2019
+	 
+- **FINGER VEIN IMAGE COMPRESSION WITH UNIFORM BACKGROUND [Submitted]**
+	 - Authors: _Babak Maser_, Tamara Lipowski, Jutta Hämmerle-Uhl, Andreas Uhl
+
  
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
