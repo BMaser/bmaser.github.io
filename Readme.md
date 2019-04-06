@@ -11,7 +11,7 @@
  - Image Processing & Computer vision  , Machine Learning, Pattern Recognition, Medical Imaging, Media Security,  Biometrics
 
 
-##  ![](editors_dice-250.jpg) Publications:
+##  Publications:
  
 - [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data ](https://ieeexplore.ieee.org/abstract/document/8553484/) , [September 2018]
 
