@@ -25,9 +25,9 @@
 	 - Authors: _Babak Maser_, Dominik, Sollinger, Andreas Uhl
 	 - Conference: ARW/OAGM 2019
 	 
-- **FINGER VEIN IMAGE COMPRESSION WITH UNIFORM BACKGROUND [Submitted]**
+- **Finger Vein Image Compression With Uniform Background [Submitted]**
 	 - Authors: _Babak Maser_, Tamara Lipowski, Jutta Hämmerle-Uhl, Andreas Uhl
-
+	 - Conference:
  
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
