@@ -3,7 +3,7 @@
 
 ![](fig_Salzburg_night.jpg)
  
- [Publication](Publication.md)  [Resume](CV.md)
+ [Publication](Publication.md)   |  [Resume](CV.md)
 
 
  I am currently student of a joint Master degree program, M.Sc in "Applied Image & Signal Processing" at the University of Salzburg and SUAS.
