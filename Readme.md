@@ -20,12 +20,8 @@ Bachelor of Engineering in Chemical Engineering, AU University, Iran.
 
 
 ##  Publications:
- 
-- [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data ](https://ieeexplore.ieee.org/abstract/document/8553484/) , [September 2018]
 
-	 - Authors: T. Lipowski, _B. Maser_, J. Hämmerle-Uhl, Andreas Uhl
-	 - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG)
-
+**2019**
 - **PRNU-based Detection of Finger Vein Presentation Attacks [Accepted]**
 	 - Authors: _Babak Maser_, Dominik, Sollinger, Andreas Uhl
 	 - Conference: IWBF 2019
@@ -41,7 +37,14 @@ Bachelor of Engineering in Chemical Engineering, AU University, Iran.
 - **Finger Vein Image Compression With Uniform Background [Submitted]**
 	 - Authors: _Babak Maser_, Tamara Lipowski, Jutta Hämmerle-Uhl, Andreas Uhl
 	 - Conference:
- 
+
+**2018**
+  
+- [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data ](https://ieeexplore.ieee.org/abstract/document/8553484/) , [September 2018]
+
+	 - Authors: T. Lipowski, _B. Maser_, J. Hämmerle-Uhl, Andreas Uhl
+	 - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG)
+
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
  
