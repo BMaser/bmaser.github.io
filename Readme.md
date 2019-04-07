@@ -6,17 +6,17 @@
  [Publication](Publication.md)  [Resume](CV.md)  [Education](Education.md) [Courses](Courses.md)
 
 
- **Affiliation**: Department of Computer Science, University of Salzburg, Austria. 
+ **Affiliation**: [M.Sc. (Applied Image and Signal Processing)](https://aisp-salzburg.ac.at/) student at the [Department of Computer Science](https://informatik.uni-salzburg.at/) in [University of Salzburg](https://uni-salzburg.at/), Austria. 
 
 **Education**:
 
-2008, M.Sc in Computer Science, University of Pune, India.
+M.Sc in Computer Science, University of Pune, India.
 
-2007, Bachelor of Engineering in Chemical Engineering, AU University, Iran.
+Bachelor of Engineering in Chemical Engineering, AU University, Iran.
 
 ## Research Interest:
 
- - Image Processing & Computer vision  , Machine Learning, Pattern Recognition, Medical Imaging, Media Security,  Biometrics
+ - Image Processing & Computer vision  , Machine Learning, Pattern Recognition, Medical Imaging, Media Security, Biometrics.
 
 
 ##  Publications:
