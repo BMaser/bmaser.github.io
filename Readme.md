@@ -59,6 +59,7 @@ Bachelor of Engineering in Chemical Engineering, AU University, Iran.
 	
 **Programming Language**: 
 - Python 2.7 and 3.x
+- Matlab
 	
 **Tools** : 
 - Pycharm, Jupyter Notebook, Gnu-plot, matlibplot, Latex
