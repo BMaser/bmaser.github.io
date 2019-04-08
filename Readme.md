@@ -3,8 +3,10 @@
 
 ![](fig_Salzburg_night.jpg)
  
- [Publication](Publication.md)  [Resume](CV.md)  [Education](Education.md) [Courses](Courses.md) [Contact](Contact.md)
-
+  [Resume](CV.md)   [Courses](Courses.md) [Contact](Contact.md)
+<!---
+[Education](Education.md) [Publication](Publication.md) 
+-->
 
  **Affiliation**: 
  
