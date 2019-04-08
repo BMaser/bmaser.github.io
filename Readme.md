@@ -6,7 +6,9 @@
  [Publication](Publication.md)  [Resume](CV.md)  [Education](Education.md) [Courses](Courses.md) [Contact](Contact.md)
 
 
- **Affiliation**: [M.Sc. (Applied Image and Signal Processing)](https://aisp-salzburg.ac.at/) student, [Department of Computer Science](https://informatik.uni-salzburg.at/),  [University of Salzburg](https://uni-salzburg.at/), Austria. 
+ **Affiliation**: 
+ 
+ [M.Sc. student (Applied Image and Signal Processing)](https://aisp-salzburg.ac.at/), [Department of Computer Science](https://informatik.uni-salzburg.at/),  [University of Salzburg](https://uni-salzburg.at/), Austria. 
 
 **Education**:
 
