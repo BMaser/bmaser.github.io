@@ -28,19 +28,19 @@ Bachelor of Engineering in Chemical Engineering, AU University, Iran.
 **2019**
 - **PRNU-based Detection of Finger Vein Presentation Attacks [Accepted]**
 	 - Authors: _Babak Maser_, Dominik, Sollinger, Andreas Uhl
-	 - Conference: IWBF 2019
+	 - Conference: IWBF 2019, Mexico.
 
 - **PRNU-based finger vein sensor identification: On the effect of different sensor croppings [Accepted]**
 	 - Authors: Dominik Sollinger, _Babak Maser_, Andreas Uhl
-	 - Conference: ICB 2019
+	 - Conference: ICB 2019, Greece.
 	 
-- **PRNU-based Finger Vein Sensor Identification in the Presence of Presentation Attack Data [Submitted  ]** 
+- **PRNU-based Finger Vein Sensor Identification in the Presence of Presentation Attack Data [Accepted]** 
 	 - Authors: _Babak Maser_, Dominik, Sollinger, Andreas Uhl
-	 - Conference: ARW/OAGM 2019
+	 - Conference: ARW/OAGM 2019, Austria.
 	 
 - **Finger Vein Image Compression With Uniform Background [Submitted]**
 	 - Authors: _Babak Maser_, Tamara Lipowski, Jutta Hämmerle-Uhl, Andreas Uhl
-	 - Conference:
+	 - Conference: Sweden.
 
 **2018**
   
