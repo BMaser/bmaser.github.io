@@ -47,7 +47,7 @@ Bachelor of Engineering in Chemical Engineering, AU University, Iran.
 - [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data ](https://ieeexplore.ieee.org/abstract/document/8553484/) , [September 2018]
 
 	 - Authors: T. Lipowski, _B. Maser_, J. Hämmerle-Uhl, Andreas Uhl
-	 - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG)
+	 - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG), Germany.
 
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
