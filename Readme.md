@@ -52,7 +52,7 @@ Bachelor of Engineering in Chemical Engineering.
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
  
- # Academic Projects
+ **Academic Projects**
 
 1.  Medical Imaging Project: Measurement of pennation angle (PA) of
     pinnate muscle, winter semester of 2016
@@ -68,6 +68,20 @@ Bachelor of Engineering in Chemical Engineering.
 
 5.  Project: Semantic word vectors using word2vec, 2018.
  
+# Work Experience
+
+## University Teaching: Adjunct lecturer
+
+  - Software modeling and design (OOAD, UML 2.1),
+
+  - Object Oriented Programming (OOP),
+
+  - Computer Networking,
+
+  - ICT (Mobile Networking and mobile network protocol),
+
+  - Machine Language and assembly programming.
+  
 **Technical Approach** : 
 - Conventional (Classical) and Deep Learning
 	
