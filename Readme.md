@@ -52,7 +52,21 @@ Bachelor of Engineering in Chemical Engineering.
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
  
- 
+ # Academic Projects
+
+1.  Medical Imaging Project: Measurement of pennation angle (PA) of
+    pinnate muscle, winter semester of 2016
+
+2.  Project: People counting using UCSD Pedestrian dataset with deep
+    learning approach, 2017.
+
+3.  Project: Detection of Morphed Face Images using Deep learning. This
+    project was done by Pytorch framework with AlexNet model, 2017/18.
+
+4.  Project: A Survey on effect of pre-processing and Feature extraction
+    on Fingure-vein recognition using SIFT, SURF, BRIEF and ORB. 2017/18
+
+5.  Project: Semantic word vectors using word2vec, 2018.
  
 **Technical Approach** : 
 - Conventional (Classical) and Deep Learning
