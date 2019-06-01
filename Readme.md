@@ -20,7 +20,7 @@ Bachelor of Engineering in Chemical Engineering.
 
 **Research Interest**:
 
- - Image Processing & Computer vision  , Machine Learning, Pattern Recognition, Medical Imaging, Media Security, Biometrics.
+ - Image Processing & Computer vision  , Machine Learning, Pattern Recognition, Medical Imaging, Media Security, Biometrics, GIS.
 
 
 **Publications**:
