@@ -54,6 +54,10 @@ Bachelor of Engineering in Chemical Engineering.
  
  [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
  
+ [dblp computer science bibliography](https://dblp.org/pers/hd/m/Maser:Babak)
+ 
+ [Research gate](https://www.researchgate.net/profile/B_Maser)
+ 
  **Academic Projects**
 
 1.  Medical Imaging Project: Measurement of pennation angle (PA) of
