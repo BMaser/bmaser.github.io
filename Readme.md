@@ -31,7 +31,7 @@ Bachelor of Engineering in Chemical Engineering.
 	 - Conference: 2019, 7th International Workshop on Biometrics and Forensics (IWBF), Mexico.
 	 - DOI: 10.1109/IWBF.2019.8739203
 
-- [2] **PRNU-based finger vein sensor identification: On the effect of different sensor croppings** 
+- [2] [PRNU-based finger vein sensor identification: On the effect of different sensor croppings](https://www.icb2019.org/Misc/ICB2019Program.pdf) 
 	 - Authors: Dominik Sollinger, _Babak Maser_, Andreas Uhl
 	 - Conference: ICB 2019, Greece.
 	 
