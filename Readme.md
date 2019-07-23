@@ -43,9 +43,10 @@ Bachelor of Engineering in Chemical Engineering.
 - [4] **Finger Vein Image Compression With Uniform Background**
 	 - Authors: _Babak Maser_, Tamara Lipowski, Jutta Hämmerle-Uhl, Andreas Uhl
 	 - Conference: 	 ICBEA 2019, May 29–31, 2019, Stockholm, Sweden.
+	 - soon will be published:
         © 2019 Association for Computing Machinery.
         ACM ISBN 978-1-4503-6305-1/19/05…$15.00
-    - https://doi.org/10.1145/3345336.3345347
+     - very soon the paper can be brows at following DOI: https://doi.org/10.1145/3345336.3345347
 
 
 **2018**
