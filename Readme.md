@@ -85,7 +85,7 @@ Bachelor of Engineering in Chemical Engineering.
 
   - Software modeling and design (OOAD, UML 2.1),
 
-  - Object Oriented Programming (OOP),
+  - Object Oriented Programming (OOP) C#.net
 
   - Computer Networking,
 
@@ -95,8 +95,7 @@ Bachelor of Engineering in Chemical Engineering.
   
  **Technical Skills**
 
-  - Programming Language and Libraries: Python, OpenCV-python image
-    Pocessing interface, Scikit-image, Numpy, Scipy, Matlab
+  - Programming Language and Libraries: Python, OpenCV-python image processing interface, Scikit-image/Sklearn, Matplotlib, Numpy, Scipy, and Matlab.
 
   - Deep Learning framework: Pytorch, Keras
 
