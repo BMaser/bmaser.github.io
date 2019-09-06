@@ -3,11 +3,10 @@
 
 ![](fig_Salzburg_night.jpg)
  
-  [Resume](CV.md)   [Courses](Courses.md) [Contact](Contact.md)
+  [Resume](CV.md)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Courses](Courses.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Contact](Contact.md)
 <!---
 [Education](Education.md) [Publication](Publication.md) 
 -->
-
 
 
 **Currently, I am member of The [Multimedia Signal Processing and Security Lab which is called also "WaveLab".](http://www.wavelab.at/members-content.shtml)**
