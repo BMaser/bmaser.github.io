@@ -10,7 +10,7 @@
 
 
 
-**Currently, I am member honored to be a member of The [Multimedia Signal Processing and Security Lab which is called also "WaveLab".](http://www.wavelab.at/members-content.shtml)**
+**Currently, I am member of The [Multimedia Signal Processing and Security Lab which is called also "WaveLab".](http://www.wavelab.at/members-content.shtml)**
 
 
 
