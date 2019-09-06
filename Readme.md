@@ -8,6 +8,16 @@
 [Education](Education.md) [Publication](Publication.md) 
 -->
 
+
+
+**Currently, I am member honored to be a member of The [Multimedia Signal Processing and Security Lab which is called also "WaveLab".](http://www.wavelab.at/members-content.shtml)**
+
+
+
+**Recent Activity**: 
+I am working on a Finger Vein classification project. In the current project, I have a chance to apply different image processing algorithms to examine their performance, also I am applying a machine learning algorithm to create a best possible scenario to analyze results.        
+
+
  **Affiliation**: 
  
  [M.Sc. student (Applied Image and Signal Processing)](https://aisp-salzburg.ac.at/), [Department of Computer Science](https://informatik.uni-salzburg.at/),  [University of Salzburg](https://uni-salzburg.at/), Austria. 
@@ -21,7 +31,6 @@ Bachelor of Engineering in Chemical Engineering.
 **Research Interest**:
 
  - Image Processing & Computer vision  , Machine Learning, Pattern Recognition, Medical Imaging, Media Security, Biometrics, GIS.
-
 
 **Publications**:
 
