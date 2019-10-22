@@ -9,8 +9,8 @@
 -->
 
 
-**Currently, I am a member of the ["WaveLab".] (http://www.wavelab.at/members-content.shtml)**
-
+**Currently, I am a member of the ["WaveLab".]**
+(http://www.wavelab.at/members-content.shtml)
 
 
 **Recent Activity**: 
