@@ -7,3 +7,5 @@ email: babak.maser@stud.sbg.ac.at
 markdown: kramdown
 theme: jekyll-theme-minimal
 
+navbar-links:
+  Test: "http://google.com"
