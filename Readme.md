@@ -9,12 +9,12 @@
 -->
 
 
-**Currently, I am member of The [Multimedia Signal Processing and Security Lab which is called also "WaveLab".](http://www.wavelab.at/members-content.shtml)**
+**Currently, I am a member of the ["WaveLab".] (http://www.wavelab.at/members-content.shtml)**
 
 
 
 **Recent Activity**: 
-I am working on a Finger Vein classification project. In the current project, I have a chance to apply different image processing algorithms to examine their performance, also I am applying a machine learning algorithm to create a best possible scenario to analyze results.        
+I am working on a finger vein classification project. In the current project, I have a chance to apply different image processing algorithms to examine their performance, also I am applying a machine learning algorithm to create an ideal scenario to analyze results.
 
 
  **Affiliation**: 
@@ -23,7 +23,7 @@ I am working on a Finger Vein classification project. In the current project, I 
 
 **Education**:
 
-M.Sc in Computer Science.
+M.Sc. in Computer Science.
 
 Bachelor of Engineering in Chemical Engineering.
 
@@ -63,13 +63,6 @@ Bachelor of Engineering in Chemical Engineering.
 
 	 - Authors: T. Lipowski, _B. Maser_, J. Hämmerle-Uhl, Andreas Uhl
 	 - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG), Germany.
-
- 
- [Google Scholar](https://scholar.google.at/citations?user=guMbN5oAAAAJ&hl=de)
- 
- [dblp computer science bibliography](https://dblp.org/pers/hd/m/Maser:Babak)
- 
- [Research gate](https://www.researchgate.net/profile/B_Maser)
  
  **Academic Projects**
 
