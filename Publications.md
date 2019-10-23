@@ -1,4 +1,12 @@
-﻿**Publications**:
+﻿
+  [Resume](CV.md)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Publications](Publications.md)
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  [Courses](Courses.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  [Contact](Contact.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+**Publications**:
 
 **2019**
 - [1] [PRNU-based Detection of Finger Vein Presentation Attacks](https://ieeexplore.ieee.org/document/8739203/authors)

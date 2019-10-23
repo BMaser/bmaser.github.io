@@ -1,4 +1,13 @@
-﻿# Core Courses
+﻿
+  [Resume](CV.md)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Publications](Publications.md)
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  [Courses](Courses.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  [Contact](Contact.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+# Core Courses
 * Image Processing & Computer Vision,
 * Advance Computer Vision,
 * Media Data Formats (Data Compression Techniques),
