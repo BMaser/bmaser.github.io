@@ -18,4 +18,4 @@ github:
 https://github.com/BMaser
 
 
-[Back](https://bmaser.github.io/)
+[Home](https://bmaser.github.io/)
