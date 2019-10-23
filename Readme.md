@@ -6,7 +6,6 @@
 <!---
 [Education](Education.md) [Publication](Publication.md) 
 -->
-________________________________________________________________
 
 ![](fig_Salzburg_night.jpg)
  
