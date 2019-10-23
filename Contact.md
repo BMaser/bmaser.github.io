@@ -5,14 +5,15 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-e-mail:
-Babak [dot] maser [AT] stud [dot] sbg [dot] ac [dot] at
+e-mail: &nbsp;&nbsp;
+[Babak.maser@stud.sbg.ac.at](Babak.maser@stud.sbg.ac.at)
 
-website:
-https://bmaser.github.io/
+website:&nbsp;
+[https://bmaser.github.io/](https://bmaser.github.io/)
 
-github:
-https://github.com/BMaser
+github:&nbsp;&nbsp;&nbsp;
+[https://github.com/BMaser](https://github.com/BMaser)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 [Home](https://bmaser.github.io/)
