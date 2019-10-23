@@ -1,9 +1,6 @@
 ﻿
-[Home](https://bmaser.github.io/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  [Resume](CV.md)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Publications](Publications.md)
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  [Courses](Courses.md)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  [Contact](Contact.md)
+[Home](https://bmaser.github.io/) -
+  [Resume](CV.md)  - [Publications](Publications.md) -  [Courses](Courses.md) - [Contact](Contact.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -27,7 +24,7 @@ I am working on a finger vein classification project. In the current project, I 
 
 M.Sc. in Computer Science.
 
-Bachelor of Engineering in Chemical Engineering.
+Bachelor of Engineering.
 
 **Research Interest**:
 
