@@ -6,9 +6,18 @@
 
 **Publications**:
 
+**2020**
+
+- [New] A new paper has been submitted.
+
+    - Authors: 
+    - Conference: 
+    - DOI:
+
+
 **2019**
 - [1] [PRNU-based Detection of Finger Vein Presentation Attacks](https://ieeexplore.ieee.org/document/8739203/authors)
-	 - Authors: _Babak Maser_, Dominik, Sollinger, Andreas Uhl
+	 - Authors: _Babak Maser_, Dominik Sollinger, Andreas Uhl
 	 - Conference: 2019, 7th International Workshop on Biometrics and Forensics (IWBF), Mexico.
 	 - DOI: https://doi.org/10.1109/IWBF.2019.8739203
 
