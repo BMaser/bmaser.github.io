@@ -17,7 +17,9 @@
 
 
 **Recent Activity**: 
-I am working on a finger vein classification project. In the current project, I have a chance to apply different image processing algorithms to examine their performance, also I am applying a machine learning algorithm to create an ideal scenario to analyze results.
+
+1. A new paper on sensor identification has been submitted. 
+2. I will begin development of a new biometric project within the next few days 
 
 
  **Affiliation**: 
