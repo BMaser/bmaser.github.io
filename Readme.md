@@ -19,7 +19,7 @@
 **Recent Activity**: 
 
 1. A new paper on sensor identification has been submitted. 
-2. I will begin development of a new biometric project within the next few days 
+2. I am working on a biometric project. This project is dedicated to Finger vein classification using a Deep Learning approach. To implement and develop, I use python 3.6 and Tensorflow 2.0.0.
 
 
  **Affiliation**: 
