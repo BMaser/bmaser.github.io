@@ -1,4 +1,6 @@
 ﻿
+![banner](image/photo.png)
+
 [Home](https://bmaser.github.io/) -
   [Resume](CV.md)  - [Publications](Publications.md) -  [Courses](Courses.md) - [Contact](Contact.md)
 
@@ -7,7 +9,7 @@
 [Education](Education.md) [Publication](Publication.md) 
 -->
 
-![](fig_Salzburg_night.jpg)
+<!--![](fig_Salzburg_night.jpg)-->
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
