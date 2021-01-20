@@ -14,14 +14,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-**Currently, I am a member of the**
-["WaveLab"](http://www.wavelab.at/members-content.shtml).
+Currently, I am a member of the ["WaveLab"](http://www.wavelab.at/members-content.shtml), working on computer vision projects in the field of biometrics. Particularly, Finger vein classification using a deep-learning and classical approach. I have worked on many biometric projects. As a result, I have contributed to publishing five papers. Apart from research projects and publishing, I have consistently been committed to developing my skill in applied deep learning and machine learning (let say Machine vision). I cordially keen to work and learn new things in computer vision (CV) and machine learning.
+
+You may see, the list of CV/ML projects that I did in my profile. More information including my resume can be seen on my Linkedin profile.
+
+Recent activity:
+Currently, I am working on a new project to discriminate and identify different sensors based on a deep learning approach.
+Also recently, I did research in the computer vision field, I design and implement a solution to detect the image origin of a given finger vein image using statistical methods with a machine learning approach.
 
 
-**Recent Activity**: 
 
-1. A new paper on sensor identification has been submitted. 
-2. I am working on a biometric project. This project is dedicated to Finger vein classification using a Deep Learning approach. To implement and develop, I use python 3.6 and Tensorflow 2.0.0.
 
 
  **Affiliation**: 
@@ -36,7 +38,7 @@ Bachelor of Engineering.
 
 **Research Interest**:
 
- - Image Processing & Computer vision  , Machine Learning, Pattern Recognition, Medical Imaging, Media Security, Biometrics, GIS.
+ - Image Processing & Computer vision  , Machine Learning, Image Understanding, 3D Reconstruction, Medical Imaging, Media Security, Biometrics, Remote Sensing.
 
 
     
