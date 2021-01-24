@@ -18,7 +18,7 @@ Currently, I am a member of the ["WaveLab"](http://www.wavelab.at/members-conten
 
 You may see, the list of CV/ML projects that I did in my profile. More information including my resume can be seen on my Linkedin profile.
 
-Recently , I am worked on a new project to discriminate and identify different sensors based on a deep learning approach.
+Recently , I worked on a new project to discriminate and identify different sensors based on a deep learning approach.
 In addition, I did research in the computer vision field that I designed and implemented a solution to detect the image origin of a given finger vein image using statistical methods with a machine learning approach.
 
 
