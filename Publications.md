@@ -4,6 +4,16 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+<div> <a>ORCID QR Code </a> 
+<img src="https://github.com/BMaser/bmaser.github.io/blob/master/image/ORCID.png">
+</div>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-1662-8324" href="https://orcid.org/0000-0002-1662-8324" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-1662-8324</a></div>
+
+
+
 **Publications**:
 
 **2020**
