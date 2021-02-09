@@ -13,8 +13,8 @@
 -->
 
 <!--![](fig_Salzburg_night.jpg)-->
- 
-**New Papaer:** [Identifying the Origin of Finger Vein Samples Using Texture Descriptors](https://arxiv.org/abs/2102.03992)
+
+**New Papaer:** [IDENTIFYING THE ORIGIN OF FINGER VEIN SAMPLES USING TEXTURE DESCRIPTORS](https://arxiv.org/abs/2102.03992)
 Authors: _Babak Maser, Andreas Uhl_
 
 
