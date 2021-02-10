@@ -21,7 +21,7 @@
 
 
 <div class="aboutme">
-<h5>About me</h5>
+<h4><b>About me</b></h4>
 <p>
 Currently, I am a member of the ["WaveLab"](http://www.wavelab.at/members-content.shtml), working on computer vision projects in the field of biometrics. Particularly, Finger vein classification using a deep-learning and classical approach. I have worked on many biometric projects. As a result, I have contributed to publishing five papers. Apart from research projects and publishing, I have consistently been committed to developing my skill in applied deep learning and machine learning (let say Machine vision). I cordially keen to work and learn new things in computer vision (CV) and machine learning.</p>
 
