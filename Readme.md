@@ -16,7 +16,7 @@
 
 <div class="new_paper">
     <p><b style="color:red">New Paper:</b> <a href="https://arxiv.org/abs/2102.03992">IDENTIFYING THE ORIGIN OF FINGER VEIN SAMPLES USING TEXTURE DESCRIPTORS</a>,
- Authors: _Babak Maser, Andreas Uhl_</p>
+ Authors:<i> Babak Maser, Andreas Uhl </i></p>
 </div>
 
 
