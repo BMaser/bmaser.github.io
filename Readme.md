@@ -14,7 +14,7 @@
 
 <!--![](fig_Salzburg_night.jpg)-->
 
-<p style="color:red"><b>New Papaer:</b></p> [IDENTIFYING THE ORIGIN OF FINGER VEIN SAMPLES USING TEXTURE DESCRIPTORS](https://arxiv.org/abs/2102.03992),
+<p style="color:red"><b>New Paper:</b></p> [IDENTIFYING THE ORIGIN OF FINGER VEIN SAMPLES USING TEXTURE DESCRIPTORS](https://arxiv.org/abs/2102.03992),
  Authors: _Babak Maser, Andreas Uhl_
 
 
