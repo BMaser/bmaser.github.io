@@ -4,82 +4,82 @@
 
 ![banner](image/photo.png)
 
-<!--[Home](https://bmaser.github.io/) --->
-<!--  [Resume](CV.md)  - [Publications](Publications.md) -  [Courses](Courses.md) - [Contact](Contact.md)-->
+[Home](https://bmaser.github.io/) -
+  [Resume](CV.md)  - [Publications](Publications.md) -  [Courses](Courses.md) - [Contact](Contact.md)
 
 &nbsp;&nbsp;
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+<!--<html>-->
+<!--<head>-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--<style>-->
+<!--body {-->
+<!--  margin: 0;-->
+<!--  font-family: Arial, Helvetica, sans-serif;-->
+<!--}-->
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+<!--.navbar {-->
+<!--  overflow: hidden;-->
+<!--  background-color: #333;-->
+<!--  position: fixed;-->
+<!--  bottom: 0;-->
+<!--  width: 100%;-->
+<!--}-->
 
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+<!--.navbar a {-->
+<!--  float: left;-->
+<!--  display: block;-->
+<!--  color: #f2f2f2;-->
+<!--  text-align: center;-->
+<!--  padding: 14px 16px;-->
+<!--  text-decoration: none;-->
+<!--  font-size: 17px;-->
+<!--}-->
 
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
-}
+<!--.navbar a:hover {-->
+<!--  background: #f1f1f1;-->
+<!--  color: black;-->
+<!--}-->
 
-.navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
+<!--.navbar a.active {-->
+<!--  background-color: #4CAF50;-->
+<!--  color: white;-->
+<!--}-->
 
-.main {
-  padding: 16px;
-  margin-bottom: 30px;
-}
-</style>
-</head>
-<body>
+<!--.main {-->
+<!--  padding: 16px;-->
+<!--  margin-bottom: 30px;-->
+<!--}-->
+<!--</style>-->
+<!--</head>-->
+<!--<body>-->
 
-<div class="navbar" id="myNavbar">
+<!--<div class="navbar" id="myNavbar">-->
 
-  <a href="https://bmaser.github.io/" class="active">Home</a>
-  <a href="https://bmaser.github.io/CV.md">Resume</a>
-  <a href="https://bmaser.github.io/Publications.md">Publications</a>
-  <a href="https://bmaser.github.io/Courses.md">Courses</a>
-  <a href="https://bmaser.github.io/Contact.md">Contact</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+<!--  <a href="https://bmaser.github.io/" class="active">Home</a>-->
+<!--  <a href="https://bmaser.github.io/CV.md">Resume</a>-->
+<!--  <a href="https://bmaser.github.io/Publications.md">Publications</a>-->
+<!--  <a href="https://bmaser.github.io/Courses.md">Courses</a>-->
+<!--  <a href="https://bmaser.github.io/Contact.md">Contact</a>-->
+<!--    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>-->
+<!--</div>-->
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myNavbar");
-  if (x.className === "navbar") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar";
-  }
-}
-</script>
+<!--<script>-->
+<!--function myFunction() {-->
+<!--  var x = document.getElementById("myNavbar");-->
+<!--  if (x.className === "navbar") {-->
+<!--    x.className += " responsive";-->
+<!--  } else {-->
+<!--    x.className = "navbar";-->
+<!--  }-->
+<!--}-->
+<!--</script>-->
 
 <!--<div class="main">-->
 <!--  <h1></h1>-->
 <!--  <p></p>-->
 <!--</div>-->
-</body>
-</html>
+<!--</body>-->
+<!--</html>-->
 
 
 
