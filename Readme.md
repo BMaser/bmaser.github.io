@@ -56,10 +56,10 @@ body {
 <div class="navbar" id="myNavbar">
 
   <a href="https://bmaser.github.io/" class="active">Home</a>
-  <a href="#CV.md">Resume</a>
-  <a href="Publications.md">Publications</a>
-  <a href="Courses.md">Courses</a>
-  <a href="Contact.md">Contact</a>
+  <a href="https://bmaser.github.io/CV.md">Resume</a>
+  <a href="https://bmaser.github.io/Publications.md">Publications</a>
+  <a href="https://bmaser.github.io/Courses.md">Courses</a>
+  <a href="https://bmaser.github.io/Contact.md">Contact</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
