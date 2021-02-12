@@ -1,6 +1,6 @@
 ﻿
-[Home](https://bmaser.github.io/) -
-  [Resume](CV.md)  - [Publications](Publications.md) -  [Courses](Courses.md) - [Contact](Contact.md)
+<!--[Home](https://bmaser.github.io/) --->
+<!--  [Resume](CV.md)  - [Publications](Publications.md) -  [Courses](Courses.md) - [Contact](Contact.md)-->
 <!--<!DOCTYPE html>-->
     
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-1662-8324" href="https://orcid.org/0000-0002-1662-8324" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-1662-8324</a></div>
@@ -15,8 +15,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-    <!-- <p center> [Home](https://bmaser.github.io/) | -->
-    <!--[Resume](CV.md) | [Publications](Publications.md) |  [Courses](Courses.md) |  [Contact](Contact.md) </p> -->
+    /*<!-- <p center> [Home](https://bmaser.github.io/) | -->*/
+    /*<!--[Resume](CV.md) | [Publications](Publications.md) |  [Courses](Courses.md) |  [Contact](Contact.md) </p> -->*/
     
 
 
@@ -72,7 +72,8 @@ body {
     <a href="https://bmaser.github.io/Contact.html">  Contact</a>
  
 </div>
-
+</body>
+</html>
 
 e-mail: &nbsp;&nbsp;
 [Babak.maser@stud.sbg.ac.at](Babak.maser@stud.sbg.ac.at)
@@ -87,5 +88,3 @@ github:&nbsp;&nbsp;&nbsp;
 
 [Home](https://bmaser.github.io/)
 
-</body>
-</html>

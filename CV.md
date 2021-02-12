@@ -13,8 +13,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-    <!-- <p center> [Home](https://bmaser.github.io/) | -->
-    <!--[Resume](CV.md) | [Publications](Publications.md) |  [Courses](Courses.md) |  [Contact](Contact.md) </p> -->
+    /*<!-- <p center> [Home](https://bmaser.github.io/) | -->*/
+    /*<!--[Resume](CV.md) | [Publications](Publications.md) |  [Courses](Courses.md) |  [Contact](Contact.md) </p> -->*/
     
 
 

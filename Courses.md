@@ -13,8 +13,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-    <!-- <p center> [Home](https://bmaser.github.io/) | -->
-    <!--[Resume](CV.md) | [Publications](Publications.md) |  [Courses](Courses.md) |  [Contact](Contact.md) </p> -->
+    /*<!-- <p center> [Home](https://bmaser.github.io/) | -->*/
+    /*<!--[Resume](CV.md) | [Publications](Publications.md) |  [Courses](Courses.md) |  [Contact](Contact.md) </p> -->*/
     
 
 
@@ -70,7 +70,8 @@ body {
     <a href="https://bmaser.github.io/Contact.html">  Contact</a>
  
 </div>
-
+ </body>
+</html>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
@@ -94,5 +95,3 @@ body {
 
 [Home](https://bmaser.github.io/)
 
-</body>
-</html>
