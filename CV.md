@@ -64,13 +64,14 @@ body {
   <!--<a href="#about">About</a>-->
   
     <!--<a class="active"  href="ttps://bmaser.github.io/">  Home   |  </a>-->
-    <a href="ttps://bmaser.github.io/">  Home   |  </a>
+    <a href="https://bmaser.github.io/">  Home   |  </a>
     <a href="https://bmaser.github.io/CV.html">  Resume  |  </a>
     <a href="https://bmaser.github.io/Courses.html">  Courses  |  </a>
     <a href="https://bmaser.github.io/Contact.html">  Contact</a>
  
 </div>
-
+</body>
+</html>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
@@ -185,5 +186,3 @@ Bachelor of Engineering.
     
     [Home](https://bmaser.github.io/)
     
-    </body>
-</html>
