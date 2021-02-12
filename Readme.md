@@ -29,7 +29,7 @@ body {
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #151B54;
   text-align: center;
   /*padding: 14px 16px;*/
   padding: 10px 8px;
