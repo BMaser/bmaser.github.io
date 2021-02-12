@@ -40,18 +40,18 @@ body {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: white;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #151B54;
   color: white;
 }
 </style>
 </head>
 <body>
 
-<div class="topnav" style="padding-left:27%">
+<div class="topnav" style="padding-left:23%">
   <!--<a class="active" href="#home">Home</a>-->
   <!--<a href="#news">News</a>-->
   <!--<a href="#contact">Contact</a>-->
