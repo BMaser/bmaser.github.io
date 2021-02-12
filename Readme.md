@@ -95,6 +95,8 @@ In addition, I did research in the computer vision field that I designed and imp
 
 </div>
 
+</body>
+</html>
 
 
  **Affiliation**: 
@@ -111,5 +113,3 @@ Bachelor of Engineering.
 
  - Image Processing & Computer vision  , Machine Learning, Image Understanding, 3D Reconstruction, Medical Imaging, Media Security, Biometrics, Remote Sensing.
 
-</body>
-</html>
