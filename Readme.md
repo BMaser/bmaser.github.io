@@ -1,148 +1,101 @@
-﻿
-<!DOCTYPE html>
-
-
+﻿<!--<!DOCTYPE html>-->
+    
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-1662-8324" href="https://orcid.org/0000-0002-1662-8324" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-1662-8324</a></div>
 
 
 ![banner](image/photo.png)
 
-[Home](https://bmaser.github.io/) -
-  [Resume](CV.md)  - [Publications](Publications.md) -  [Courses](Courses.md) - [Contact](Contact.md)
 
-&nbsp;&nbsp;
 
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+    <!-- <p center> [Home](https://bmaser.github.io/) | -->
+    <!--[Resume](CV.md) | [Publications](Publications.md) |  [Courses](Courses.md) |  [Contact](Contact.md) </p> -->
+    
 
 
 body {
-  background: #F9F8FD;
-  font-family: 'Lexend Exa', sans-serif;
-}
-
-nav {
-  position: absolute;
-  top: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: inline-block;
-  border: 2px solid #EBECF1;
-  border-radius: 30px;
-  animation: slide-in 1s ease-out;
-}
-
-ul {
-  position: relative;
-  display: flex;
-  flex: 1 1 auto;
   margin: 0;
-  padding: 0 30px;
-  list-style-type: none;
-  li:not(:last-child) {
-    margin-right: 40px;
-  }
-  li {
-    border: 2px solid transparent;
-    border-radius: 5px;
-    padding: 10px;
-    transition: background 0.2s;
-    a {
-      color: #2375D8;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: color 0.2s;
-    }
-    ul {
-      visibility: hidden;
-      opacity: 0;
-      position: absolute;
-      display: block;
-      margin: 12px -12px;
-      padding: 0;
-      background: #FFA91B;
-      border: 2px solid #F7C833;
-      border-right: 2px solid #F89329;
-      border-bottom: 2px solid #F89329;
-      border-radius: 5px;
-      transition: opacity 0.2s, visibility 0.2s;
-      li {
-        margin: -2px 0 0 -2px;
-        width: calc(100% - 20px);
-        line-height: 1.7;
-        a {
-          color: #2375D8;
-        }
-      }
-    }
-    &:hover {
-      background: #EC4138;
-      border: 2px solid #F05749;
-      border-right: 2px solid #E02A21;
-      border-bottom: 2px solid #E02A21;
-      a {
-        color: #F9F8FD;
-      }
-      ul {
-        visibility: visible;
-        opacity: 1;
-        box-shadow: 0px 3px 5px 2px #EBECF1;
-        li {
-          a {
-            color: #F9F8FD;
-          }
-        }
-      }
-    }
-  }
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@keyframes slide-in {
-  0% {
-    top: -50px;
-  }
-  40% {
-    top: 20px;
-  }
-  70% {
-    top: 10px;
-  }
-  100% {
-    top: 15px;
-  }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
 
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  /*padding: 14px 16px;*/
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
 </style>
 </head>
 <body>
 
+<div class="topnav" style="padding-left:27%">
+  <!--<a class="active" href="#home">Home</a>-->
+  <!--<a href="#news">News</a>-->
+  <!--<a href="#contact">Contact</a>-->
+  <!--<a href="#about">About</a>-->
+  
+    <a class="active"  href="ttps://bmaser.github.io/">  Home  |  </a>
+    <a href="https://bmaser.github.io/CV.html">  Resume  |  </a>
+    <a href="https://bmaser.github.io/Courses.html">  Courses  |  </a>
+    <a href="https://bmaser.github.io/Contact.html">  Contact</a>
+ 
+</div>
 
-<nav>
-  <ul>
-    <li><a href="ttps://bmaser.github.io/">Home</a></li>
-    <li><a href="https://bmaser.github.io/CV.html">Resume</a></li>
-    <!--<li>-->
-    <!--  <a href="#0">Clients</a>-->
-    <!--  <ul>-->
-    <!--    <li><a href="#0">Burger King</a></li>-->
-    <!--    <li><a href="#0">Southwest Airlines</a></li>-->
-    <!--    <li><a href="#0">Levi Strauss</a></li>-->
-    <!--  </ul>-->
-    <!--</li>-->
-    <!--<li>-->
-    <!--  <a href="https://bmaser.github.io/Publications.html">Services</a>-->
-    <!--  <ul>-->
-    <!--    <li><a href="#0">Print Design</a></li>-->
-    <!--    <li><a href="#0">Web Design</a></li>-->
-    <!--    <li><a href="#0">Mobile App Development</a></li>-->
-    <!--  </ul>-->
-    <!--</li>-->
-    <li><a href="https://bmaser.github.io/Courses.html">Courses</a></li>
-    <li><a href="https://bmaser.github.io/Contact.html">Contact</a></li>
+<div style="padding-left:160px">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;&nbsp;
+
+
+
+
+<!--<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" > <!--rel="stylesheet"-->-->
+<!--<nav>-->
+<!--  <ul>-->
+<!--    <li><a href="ttps://bmaser.github.io/">Home</a></li>-->
+<!--    <li><a href="https://bmaser.github.io/CV.html">Resume</a></li>-->
+<!--    <li><a href="https://bmaser.github.io/Courses.html">Courses</a></li>-->
+<!--    <li><a href="https://bmaser.github.io/Contact.html">Contact</a></li>-->
     
-  </ul>
-</nav>
+<!--  </ul>-->
+<!--</nav>-->
 
 
 
