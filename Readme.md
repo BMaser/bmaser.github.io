@@ -32,9 +32,10 @@ body {
   color: #f2f2f2;
   text-align: center;
   /*padding: 14px 16px;*/
-  padding: 30px 20px;
+  padding: 10px 8px;
   text-decoration: none;
-  font-size: 17px;
+  /*font-size: 17px;*/
+  font-size: 14px;
 }
 
 .topnav a:hover {
