@@ -38,15 +38,20 @@ body {
   font-size: 14px;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: white;
-}
+/*.topnav a:hover {*/
+/*  background-color: #ddd;*/
+/*  color: white;*/
+/*}*/
 
-.topnav a.active {
+.topnav a:hover {
   background-color: #151B54;
   color: #666362;
 }
+
+/*.topnav a.active {*/
+/*  background-color: #151B54;*/
+/*  color: #666362;*/
+/*}*/
 </style>
 </head>
 <body>
@@ -57,7 +62,8 @@ body {
   <!--<a href="#contact">Contact</a>-->
   <!--<a href="#about">About</a>-->
   
-    <a class="active"  href="ttps://bmaser.github.io/">  Home  |  </a>
+    <!--<a class="active"  href="ttps://bmaser.github.io/">  Home   |  </a>-->
+    <a href="ttps://bmaser.github.io/">  Home   |  </a>
     <a href="https://bmaser.github.io/CV.html">  Resume  |  </a>
     <a href="https://bmaser.github.io/Courses.html">  Courses  |  </a>
     <a href="https://bmaser.github.io/Contact.html">  Contact</a>
