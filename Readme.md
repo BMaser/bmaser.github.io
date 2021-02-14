@@ -65,6 +65,7 @@ body {
     <!--<a class="active"  href="ttps://bmaser.github.io/">  Home   |  </a>-->
     <a href="https://bmaser.github.io/">  Home   |  </a>
     <a href="https://bmaser.github.io/CV.html">  Resume  |  </a>
+    <a href="https://bmaser.github.io/Publications.html">  Publication  |  </a>
     <a href="https://bmaser.github.io/Courses.html">  Courses  |  </a>
     <a href="https://bmaser.github.io/Contact.html">  Contact</a>
  
