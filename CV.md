@@ -57,7 +57,7 @@ body {
 </head>
 <body>
 
-<div class="topnav" style="padding-left:23%">
+<div class="topnav" style="padding-left:15%">
   <!--<a class="active" href="#home">Home</a>-->
   <!--<a href="#news">News</a>-->
   <!--<a href="#contact">Contact</a>-->
