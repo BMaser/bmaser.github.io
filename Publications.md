@@ -89,7 +89,7 @@ body {
 </div>
 
 
-</div>
+
 - [6] [Identifying the Origin of Finger Vein Samples Using Texture Descriptors](https://arxiv.org/abs/2102.03992)
 
     - Authors: Babak Maser, Andreas Uhl
