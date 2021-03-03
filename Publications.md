@@ -83,6 +83,13 @@ body {
 
 **2021**
 
+<div class="new_paper">
+    <p><b style="color:red">New Paper:</b> <a href="https://arxiv.org/abs/2103.01632">[7] Using CNNs to Identify the Origin of Finger Vein Image (preprint arXiv) </a>,
+ Authors:<i> Babak Maser, Andreas Uhl </i></p>
+</div>
+
+
+</div>
 - [6] [Identifying the Origin of Finger Vein Samples Using Texture Descriptors](https://arxiv.org/abs/2102.03992)
 
     - Authors: Babak Maser, Andreas Uhl
