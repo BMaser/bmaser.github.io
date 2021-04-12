@@ -78,9 +78,13 @@ body {
 
 &nbsp;&nbsp;
 
+<div class="new_paper"> <p> <b style="color:red"> NEW : Using CNNs to Identify the Origin of Finger Vein Image is accepted by IEEE International Workshop on Biometrics and Forensics (IWBF) 2021 , Rome, Italy. </b> </p> </div>
+
+
 <div class="new_paper">
     <p><b style="color:red">New Paper:</b> <a href="https://arxiv.org/abs/2103.01632">Using CNNs to Identify the Origin of Finger Vein Image (preprint arXiv) </a>,
- Authors:<i> Babak Maser, Andreas Uhl </i></p>
+    <i> Babak Maser, Andreas Uhl </i>
+
 </div>
 
 <div class="new_paper">
