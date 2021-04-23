@@ -100,8 +100,8 @@ body {
 <div class="aboutme">
 <h4><b>About me</b></h4>
 <p>
-I am currently a member of The <a href="http://www.wavelab.at/members-content.shtml"> Multimedia Signal Processing and Security Lab (WaveLab)</a>, where I work on computer vision applications in the area of Image forensics.Sensor identification, in particular, using a deep-learning and classical approach. I've worked on several Image Forensics programs. As a result, I was able to contribute to seven scientific articles. Besides academic ventures, I've actively worked to develop my advanced deep learning and machine learning skills.</p>
-<p>I am eager to work in computer vision (CV) to machine learning and develop new skills. In my profile, you can see a list of ML projects that I completed. My LinkedIn profile contains additional material, including my CV.</p>
+I am currently a member of The <a href="http://www.wavelab.at/members-content.shtml"> Multimedia Signal Processing and Security Lab (WaveLab)</a>, where I research and develope computer vision applications in the field of image forensics, using a deep-learning and classical approach. I've worked on several Image Forensics projects; As a result, I was able to contribute to seven scientific articles. Besides academic research, I've actively worked to develop my advanced deep learning and machine learning skills.</p>
+<p>I am eager to work in computer vision and machine learning projects to develop new skills. In my profile, you can see a list of ML projects that I completed. My LinkedIn profile contains additional material, including my CV.</p>
 </div>
 
 </body>
