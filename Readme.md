@@ -78,6 +78,11 @@ body {
 
 &nbsp;&nbsp;
 
+<div class="new_paper"><p><b style="color:red"> New: </b>
+ <b style="color:CornflowerBlue" > A new project on Image Forensic is being started. </b> </p> </div>
+
+
+
 <div class="new_paper"> <p> <b style="color:red"> NEW : Using CNNs to Identify the Origin of Finger Vein Image is accepted by IEEE International Workshop on Biometrics and Forensics (IWBF) 2021 , Rome, Italy. </b> </p> </div>
 
 
@@ -95,13 +100,8 @@ body {
 <div class="aboutme">
 <h4><b>About me</b></h4>
 <p>
-Currently, I am a member of the <a href="http://www.wavelab.at/members-content.shtml"> The Multimedia Signal Processing and Security Lab(WaveLab)</a>, working on computer vision projects in the field of biometrics. Particularly, Finger vein classification using a deep-learning and classical approach. I have worked on many biometric projects. As a result, I have contributed to publishing five papers. Apart from research projects and publishing, I have consistently been committed to developing my skill in applied deep learning and machine learning (let say Machine vision). I cordially keen to work and learn new things in computer vision (CV) and machine learning.</p>
-
-<p>You may see, the list of CV/ML projects that I did in my profile. More information including my resume can be seen on my Linkedin profile.</p>
-
-<p>Recently , I worked on a new project to discriminate and identify different sensors based on a deep learning approach.
-In addition, I did research in the computer vision field that I designed and implemented a solution to detect the image origin of a given finger vein image using statistical methods with a machine learning approach.</p>
-
+I am currently a member of The <a href="http://www.wavelab.at/members-content.shtml"> Multimedia Signal Processing and Security Lab (WaveLab)</a>, where I work on computer vision applications in the area of Image forensics.Sensor identification, in particular, using a deep-learning and classical approach. I've worked on several Image Forensics programs. As a result, I was able to contribute to seven scientific articles. Besides academic ventures, I've actively worked to develop my advanced deep learning and machine learning skills.</p>
+<p>I am eager to work in computer vision (CV) to machine learning and develop new skills. In my profile, you can see a list of ML projects that I completed. My LinkedIn profile contains additional material, including my CV.</p>
 </div>
 
 </body>
