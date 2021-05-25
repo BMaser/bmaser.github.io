@@ -79,7 +79,7 @@ body {
 &nbsp;&nbsp;
 
 <div class="new_paper"><p><b style="color:red"> New: </b>
- <b style="color:CornflowerBlue" > A new project on Image Forensic is being started. </b> </p> </div>
+ <b style="color:CornflowerBlue" > A new Image Forensics research project has started, with a completion date of June 2021. </b> </p> </div>
 
 
 
