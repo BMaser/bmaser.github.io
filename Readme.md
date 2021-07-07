@@ -78,6 +78,9 @@ body {
 
 &nbsp;&nbsp;
 
+<div class="new_paper"> <p> <b style="color:red"> NEW [July 2021] : <i>IDENTIFYING THE ORIGIN OF FINGER VEIN SAMPLES USING TEXTURE DESCRIPTORS</i> is accepted by ICSSA 2021, The 21st International Conference on Computational Science and its Applications , Cagliari, Italy. </b> </p> </div>
+
+
 
 <div class="new_paper"><p><b style="color:red"> New: </b>
  <b style="color:CornflowerBlue" > A new 3-D Reconstruction research project has started. </b> </p> </div>
@@ -87,7 +90,7 @@ body {
  <b style="color:CornflowerBlue" > A new Image Forensics research project has started, with a completion date of June 2021. </b> </p> </div>
 
 
-<div class="new_paper"> <p> <b style="color:red"> NEW : Using CNNs to Identify the Origin of Finger Vein Image is accepted by IEEE International Workshop on Biometrics and Forensics (IWBF) 2021 , Rome, Italy. </b> </p> </div>
+<div class="new_paper"> <p> <b style="color:green"> NEW : Using CNNs to Identify the Origin of Finger Vein Image is accepted by IEEE International Workshop on Biometrics and Forensics (IWBF) 2021 , Rome, Italy. </b> </p> </div>
 
 
 <div class="new_paper">
