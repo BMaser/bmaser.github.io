@@ -83,14 +83,12 @@ body {
 
 **2021**
 
-[7] [Using CNNs to Identify the Origin of Finger Vein Image](https://arxiv.org/abs/2103.01632)
-  
+- [7] [Using CNNs to Identify the Origin of Finger Vein Image](https://arxiv.org/abs/2103.01632)
     - Authors: Babak Maser, Andreas Uhl
     - Conference: IWBF 2021, Rome, Italy
     - Link:  https://arxiv.org/abs/2102.03992
 
-[6] [Identifying the Origin of Finger Vein Samples Using Texture Descriptors](https://arxiv.org/abs/2102.03992)
-
+- [6] [Identifying the Origin of Finger Vein Samples Using Texture Descriptors](https://arxiv.org/abs/2102.03992)
     - Authors: Babak Maser, Andreas Uhl
     - Conference: ICSSA 2021, Cagliari, Italy
     - Link:  https://arxiv.org/abs/2102.03992
