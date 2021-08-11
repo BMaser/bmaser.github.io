@@ -83,7 +83,7 @@ body {
 
 
 <div class="new_paper"><p><b style="color:red"> New: </b>
- <b style="color:CornflowerBlue" > A new 3-D Reconstruction research project has started. </b> </p> </div>
+ <b style="color:CornflowerBlue" > <s>A new 3-D Reconstruction research project has started.</s> (This project is Halted) </b> </p> </div>
 
 
 <div class="new_paper"><p><b style="color:red"> New: </b>
