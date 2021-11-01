@@ -133,7 +133,7 @@ I am sure my skills will be put to good use by your team in your esteemed compan
 
 **Education**:
 
-M.Sc. in Computer Science.
+M.Sc. in Computer Science., University of Pune, India.
 
 Bachelor of Engineering.
 
