@@ -119,12 +119,10 @@ Bachelor of Engineering.
         ACM ISBN 978-1-4503-6305-1/19/05
      - DOI: https://doi.org/10.1145/3345336.3345347
 
-
 **2018**
   
 - [5] [Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data ](https://ieeexplore.ieee.org/abstract/document/8553484/) , [September 2018]
 
-	 - Authors: T. Lipowski, _B. Maser_, J. Hämmerle-Uhl, Andreas Uhl
 	 - Conference: 2018 International Conference of the Biometrics Special Interest Group (BIOSIG), Germany.
  
  **Academic Projects**

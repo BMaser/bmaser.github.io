@@ -107,8 +107,15 @@ body {
 <div class="aboutme">
 <h4><b>About me</b></h4>
 <p>
-I am currently a member of The <a href="http://www.wavelab.at/members-content.shtml"> Multimedia Signal Processing and Security Lab (WaveLab)</a>, where I research and develope computer vision applications in the field of image forensics, using a deep-learning and classical approach. I've worked on several Image Forensics projects; As a result, I was able to contribute to seven scientific articles. Besides academic research, I've actively worked to develop my advanced deep learning and machine learning skills.</p>
-<p>I am eager to work in computer vision and machine learning projects to develop new skills. In my profile, you can see a list of ML projects that I completed. My LinkedIn profile contains additional material, including my CV.</p>
+I have concentrated on learning and researching Computer Vision and Machine Learning for the last five years, contributing to a few research projects. As a result, my colleagues and I published seven research papers.
+My research projects are as follow:
+
+ 1. Residual-based texture classification using classical Machine Learning.
+ 2. Classifying texture images based on their unique statistical properties of the image sample using Classical Machine Learning and Deep Learning approaches.
+ 3. Effect of media compression on texture classification.
+I am sure my skills will be put to good use by your team in your esteemed company. I got good experience using modern machine learning methods, and classical computer vision approaches to solve challenging problems in computer vision. Also, I gained good confidence in using Python, Keras 2.X, Tensorflow 2, OpenCV-python, Scikit-learn, Scikit-image.
+</p>
+<p>I am cordially enthusiastic to devote my professional career to industries where I can be involved myself in solutions for smartphones, wearables and robots that combine modern machine learning approaches with computer vision.</p>
 </div>
 
 </body>
@@ -127,5 +134,6 @@ Bachelor of Engineering.
 
 **Research Interest**:
 
- - Image Processing & Computer vision  , Machine Learning, Image Understanding, 3D Reconstruction, Medical Imaging, Media Security, Biometrics, Remote Sensing.
+ Computer Vision, Applied Machine Learning, Deep Learning, Analysis of Satellite Images, 3D Reconstruction, Color Correction, Medical
+Imaging, Augmented Reality and Virtual Reality, Robotics, SLAM, Multimedia Security.
 
