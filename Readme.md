@@ -106,6 +106,7 @@ body {
 
 <div class="aboutme">
 <h4><b>About me</b></h4>
+<div>
 <p>
 I have concentrated on learning and researching Computer Vision and Machine Learning for the last five years, contributing to a few research projects. As a result, my colleagues and I published seven research papers.
 My research projects are as follow:
@@ -113,6 +114,9 @@ My research projects are as follow:
  1. Residual-based texture classification using classical Machine Learning.
  2. Classifying texture images based on their unique statistical properties of the image sample using Classical Machine Learning and Deep Learning approaches.
  3. Effect of media compression on texture classification.
+ </p>
+ </div>
+ <p>
 I am sure my skills will be put to good use by your team in your esteemed company. I got good experience using modern machine learning methods, and classical computer vision approaches to solve challenging problems in computer vision. Also, I gained good confidence in using Python, Keras 2.X, Tensorflow 2, OpenCV-python, Scikit-learn, Scikit-image.
 </p>
 <p>I am cordially enthusiastic to devote my professional career to industries where I can be involved myself in solutions for smartphones, wearables and robots that combine modern machine learning approaches with computer vision.</p>
