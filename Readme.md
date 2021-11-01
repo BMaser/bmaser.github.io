@@ -111,9 +111,10 @@ body {
 I have concentrated on learning and researching Computer Vision and Machine Learning for the last five years, contributing to a few research projects. As a result, my colleagues and I published seven research papers.
 My research projects are as follow:
 
- *  Residual-based texture classification using classical Machine Learning.
- *  Classifying texture images based on their unique statistical properties of the image sample using Classical Machine Learning and Deep Learning approaches.
- *  Effect of media compression on texture classification.
+ <li> Residual-based texture classification using classical Machine Learning.</li>
+ <li> Classifying texture images based on their unique statistical properties of the image sample using Classical Machine Learning and Deep Learning approaches.</li>
+ <li> Effect of media compression on texture classification.</li>
+</ul>
  </p>
  </div>
  <p>
