@@ -2,7 +2,7 @@
 
 # Site settings
 title: B. Maser
-description: M.Sc. Computer Science Graduate, University of Pune and M.Sc Student at the University of Salzburg
+description: M.Sc. Computer Science Graduate,University of Pune &<br>M.Sc Student at <br>the University of Salzburg
 email: babak.maser@stud.sbg.ac.at
 markdown: kramdown
 theme: jekyll-theme-minimal
