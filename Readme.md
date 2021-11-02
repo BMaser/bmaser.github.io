@@ -118,9 +118,15 @@ My research projects are as follow:
  </p>
  </div>
  <p>
-I am sure my skills will be put to good use by your team in your esteemed company. I got good experience using modern machine learning methods, and classical computer vision approaches to solve challenging problems in computer vision. Also, I gained good confidence in using Python, Keras 2.X, Tensorflow 2, OpenCV-python, Scikit-learn, Scikit-image.
+I got good experience using modern machine learning methods, and classical computer vision approaches to solve challenging problems in computer vision. Also, I gained good confidence in using Python, Keras 2.X, Tensorflow 2, OpenCV-python, Scikit-learn, Scikit-image.
 </p>
-<p>I am cordially enthusiastic to devote my professional career to industries where I can be involved myself in solutions for smartphones, wearables and robots that combine modern machine learning approaches with computer vision.</p>
+<p>
+
+I am always open to work on a new research topic. If you know python and also familiar with computer vision please email me.
+
+
+
+</p>
 </div>
 
 </body>
