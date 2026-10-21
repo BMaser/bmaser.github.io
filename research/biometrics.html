@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biometrics</title>
+<meta name="description" content="Five papers on two forensic questions about a finger-vein image: which sensor took it, and was the finger real?">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Biometrics">
+<meta property="og:description" content="Five papers on two forensic questions about a finger-vein image: which sensor took it, and was the finger real?">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="../assets/page.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="topnav" aria-label="Site navigation">
+  <div class="wrap">
+    <a class="nav-mark" href="../index.html">Bob Maser</a>
+    <a class="nav-link" href="../index.html#about">About</a>
+    <a class="nav-link" href="../index.html#experience">Experience</a>
+    <a class="nav-link" href="../index.html#research">Research</a>
+    <a class="nav-link" href="../index.html#skills">Skills</a>
+    <a class="nav-link" href="../index.html#publications">Publications</a>
+    <a class="nav-link" href="../index.html#education">Education</a>
+    <a class="nav-link" href="../courses.html">Courses</a>
+    <a class="nav-link" href="../index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="kicker">Past work &middot; finger-vein sensor forensics</p>
+    <h1>Biometrics</h1>
+    <p class="lede">Five papers on two forensic questions about a finger-vein image: which sensor took it, and was the finger real?</p>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap band">
+
+    <div class="note">
+      <p>Abstracts are quoted verbatim from the papers. Authors, venues, page numbers and DOIs were verified against dblp and the publishers. Every number on this page was checked against the table it comes from in the paper itself, not against the paper&rsquo;s prose. Figures are the papers&rsquo; own, with the papers&rsquo; own captions, except the one diagram labelled as drawn for this page.</p>
+    </div>
+
+    <section class="sec" style="margin-top:clamp(2rem,5vw,3rem)">
+      <h2>The five papers</h2>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>#</th><th>Paper</th><th>Year</th><th>Venue</th><th>Method</th><th>Role</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Effect of different sensor croppings</td><td>2019</td><td>IEEE ICB</td><td>PRNU</td><td>Joint first</td></tr>
+            <tr><td>2</td><td>Sensor ID with presentation attack data</td><td>2019</td><td>ARW/OAGM</td><td>PRNU</td><td>Joint first</td></tr>
+            <tr><td>3</td><td>Detection of presentation attacks</td><td>2019</td><td>IEEE IWBF</td><td>PRNU</td><td>Joint first</td></tr>
+            <tr><td>4</td><td>Origin from texture descriptors</td><td>2021</td><td>ICCSA</td><td>Texture + SVM</td><td>Sole first</td></tr>
+            <tr><td>5</td><td>Origin with CNNs</td><td>2021</td><td>IEEE IWBF</td><td>CNN</td><td>Sole first</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:1rem">They are listed below in that order, which is also the order in which each one leads to the next. Eight public finger-vein datasets run through all five.</p>
+    </section>
+
+    <section class="sec">
+      <h2>PRNU-based finger vein sensor identification: On the effect of different sensor croppings</h2>
+      <p class="byline">D. S&ouml;llinger, <span class="me">B. Maser</span>, A. Uhl</p>
+      <p class="venue">IEEE ICB 2019 &middot; Greece &middot; pp.&nbsp;1-8 &middot; <span class="role">Joint first author</span> &middot; WaveLab, University of Salzburg</p>
+      <ul class="paper-links">
+        <li><a href="https://doi.org/10.1109/ICB45273.2019.8987237" rel="noopener">DOI</a></li>
+        <li><a href="https://ieeexplore.ieee.org/document/8987237/" rel="noopener">IEEE Xplore</a></li>
+        <li><a href="#bib-icb2019">BibTeX</a></li>
+      </ul>
+
+      <div class="workflow">
+        <img src="../assets/research/icb-prnu-workflow.webp" alt="PRNU estimation workflow: for each image in a dataset from one sensor, extract the wavelet-domain residual, estimate local variance, update coefficients with a Wiener filter, set the LL band to zero; then estimate the PRNU across all residuals by maximum likelihood and enhance it by zero-mean and a frequency-domain Wiener filter" loading="lazy" decoding="async">
+      </div>
+      <p class="wf-cap">Figure from the paper: &ldquo;PRNU Estimation Workflow&rdquo;</p>
+
+      <div class="abstract">
+        <span class="lab">Abstract, verbatim</span>
+        <p>In this work, we study the applicability of PRNU-based sensor identification methods for finger vein imagery. We also investigate the effect of different image regions on the identification performance by looking at five different croppings with different sizes. The proposed method is tested on eight publicly available finger vein datasets. For each finger vein sensor a noise reference pattern is generated and subsequently matched with noise residuals extracted from previously unseen finger vein images. Although the final result strongly encourages the use of PRNU-based approaches for sensor identification, it can also be observed that the choice of image region for PRNU extraction is crucial. The result clearly shows that regions containing biometric trait (varying content) should be preferred over background regions containing non-biometric trait (identical content).</p>
+      </div>
+
+      <div class="findings">
+        <div class="finding"><b>0.998</b><span>best AUC-ROC: Center 320&times;150 crop, Wiener filter, NCC</span></div>
+        <div class="finding"><b>0.886</b><span>same pipeline on a background crop of the same size</span></div>
+        <div class="finding"><b>8 datasets</b><span>every one public; a first for PRNU on finger vein</span></div>
+      </div>
+
+      <p style="margin-top:1.75rem"><strong>What it does.</strong> Nobody had shown that PRNU sensor identification works on finger-vein images at all. This paper tests it, and then asks a second question the first one hides: <em>which part of the image should the fingerprint come from?</em> Five crop regions are tried, matched by Normalized Cross Correlation and Peak-to-Correlation-Energy, scored subject-wise over four folds.</p>
+
+      <h3>Where the crop is taken from</h3>
+      <div class="figrow">
+        <figure>
+          <img src="../assets/research/icb-crop-center-320x150.webp" alt="Center 320x150, the best of the five" loading="lazy" decoding="async">
+          <figcaption>Center 320&times;150, the best of the five</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/research/icb-crop-background.webp" alt="Background 320x100, the worst, at the same size" loading="lazy" decoding="async">
+          <figcaption>Background 320&times;100, the worst, at the same size</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/research/icb-crop-center-320x100.webp" alt="Center 320x100, all biometric trait, smaller" loading="lazy" decoding="async">
+          <figcaption>Center 320&times;100, all biometric trait, smaller</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/research/icb-crop-top-left.webp" alt="Top-left 320x240" loading="lazy" decoding="async">
+          <figcaption>Top-left 320&times;240</figcaption>
+        </figure>
+      </div>
+
+      <p style="margin-top:1.75rem">Average AUC-ROC across the five croppings, Wiener filter, NCC and PCE:</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Cropping</th><th>NCC AUC-ROC</th><th>NCC AUC-PR</th><th>PCE AUC-ROC</th><th>PCE AUC-PR</th></tr></thead>
+          <tbody>
+            <tr><td>Center 320&times;240</td><td>0.992</td><td>0.978</td><td>0.991</td><td>0.973</td></tr>
+            <tr><td><strong>Center 320&times;150</strong></td><td><strong>0.998</strong></td><td><strong>0.979</strong></td><td><strong>0.997</strong></td><td><strong>0.978</strong></td></tr>
+            <tr><td>Center 320&times;100</td><td>0.996</td><td>0.953</td><td>0.994</td><td>0.956</td></tr>
+            <tr><td>Background 320&times;100</td><td>0.886</td><td>0.627</td><td>0.859</td><td>0.547</td></tr>
+            <tr><td>Top-left 320&times;240</td><td>0.978</td><td>0.968</td><td>0.993</td><td>0.960</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="warn">
+        <span class="t">The point the paper insists on</span>
+        <p>The background crop and the smallest centre crop are <strong>the same size</strong>, so they carry the same amount of information. The centre crop still scores 0.996 against the background&rsquo;s 0.886. Size is not what matters; content is. And bigger is not better: the largest centre crop drops back to 0.992, because growing the window pulls background back in.</p>
+      </div>
+
+      <div class="workflow">
+        <img src="../assets/research/icb-residual-workflow.webp" alt="Residual workflow: a query image is converted to a noise residual and matched against the stored sensor PRNU" loading="lazy" decoding="async">
+      </div>
+      <p class="wf-cap">Figure from the paper: &ldquo;Residual Workflow&rdquo;</p>
+
+      <details class="bib" id="bib-icb2019">
+        <summary>BibTeX</summary>
+<pre>@inproceedings{soellinger2019icb,
+  author    = {S{\"o}llinger, Dominik and Maser, B. and Uhl, Andreas},
+  title     = {PRNU-based finger vein sensor identification: On the effect of
+               different sensor croppings},
+  booktitle = {Proc. Int. Conf. on Biometrics (ICB)},
+  pages     = {1--8},
+  year      = {2019},
+  doi       = {10.1109/ICB45273.2019.8987237}
+}</pre>
+      </details>
+      <p style="margin-top:1rem">Both first authors contributed equally, stated in the paper&rsquo;s own author footnote.</p>
+    </section>
+
+    <section class="sec">
+      <h2>PRNU-based Finger Vein Sensor Identification in the Presence of Presentation Attack Data</h2>
+      <p class="byline"><span class="me">B. Maser</span>, D. S&ouml;llinger, A. Uhl</p>
+      <p class="venue">ARW/OAGM 2019 &middot; Steyr, Austria &middot; 5 pp.&nbsp;&middot; <span class="role">Joint first author</span> &middot; WaveLab, University of Salzburg</p>
+      <ul class="paper-links">
+        <li><a href="https://doi.org/10.3217/978-3-85125-663-5-38" rel="noopener">DOI</a></li>
+        <li><a href="https://workshops.aapr.at/wp-content/uploads/2019/05/ARW-OAGM19_38.pdf" rel="noopener">PDF, open access</a></li>
+        <li><a href="#bib-oagm2019">BibTeX</a></li>
+      </ul>
+
+      <div class="abstract">
+        <span class="lab">Abstract, verbatim</span>
+        <p>We examine the effectiveness of the Photo Response Non-Uniformity (PRNU) in the context of sensor identification for finger vein imagery. Experiments are conducted on eight publicly-available finger vein datasets. We apply a Wiener Filter (WF) in the frequency domain to enhance the quality of PRNU estimation and noise residual, respectively, and we use two metrics to rank PRNU similarity, i.e.&nbsp;Peak-to-Energy (PCE) and Normalized Cross Correlation (NCC). In the experiments, we include a dataset consisting of both real finger vein data and captured artifacts produced to assess presentation attacks. We investigate the impact of this situation on sensor identification accuracy and also try to discriminate spoofed images from non-spoof images varying decision thresholds. Results of sensor identification for finger vein imagery is encouraging, the obtained scores for classification accuracies are between 97% to 98% for different settings. Interestingly, selecting particular decision thresholds, it is also possible to discriminate real data from artificial data as used in presentation attacks.</p>
+      </div>
+
+      <div class="findings">
+        <div class="finding"><b>97-98%</b><span>sensor identification accuracy with fake samples in the pool</span></div>
+        <div class="finding"><b>0.998</b><span>AUC-ROC, NCC with the Wiener filter</span></div>
+        <div class="finding"><b>92% / 48%</b><span>real vs spoof IDIAP images correctly classified at threshold 0.6</span></div>
+      </div>
+
+      <p style="margin-top:1.75rem"><strong>What it does.</strong> A deployed system does not hold a clean gallery. It holds real captures and, if someone has attacked it, artifacts made to imitate a finger. This paper puts both in the same pool and asks whether sensor identification survives. It does. Then it turns the threshold into a second instrument and asks whether the same score can also tell the two kinds of image apart.</p>
+
+      <figure>
+        <img src="../assets/research/oagm-crop-center-320x150.webp" alt="The fixed crop used throughout, Center 320x150, carried over from the ICB paper" loading="lazy" decoding="async">
+        <figcaption>The fixed crop used throughout, Center 320&times;150, carried over from the ICB paper</figcaption>
+      </figure>
+
+      <div class="note">
+        <span class="t">Where this one points</span>
+        <p>The conclusion proposes the next step in plain words: the PRNU approach &ldquo;might be also suited for presentation attack, aka sensor spoofing, detection.&rdquo; The IWBF paper below does exactly that.</p>
+      </div>
+
+      <details class="bib" id="bib-oagm2019">
+        <summary>BibTeX</summary>
+<pre>@inproceedings{maser2019oagm,
+  author    = {Maser, B. and S{\"o}llinger, Dominik and Uhl, Andreas},
+  title     = {PRNU-based Finger Vein Sensor Identification in the Presence of
+               Presentation Attack Data},
+  booktitle = {Proc. Joint Austrian Robotics Workshop and OAGM Workshop (ARW/OAGM)},
+  year      = {2019},
+  doi       = {10.3217/978-3-85125-663-5-38}
+}</pre>
+      </details>
+      <p style="margin-top:1rem">Both first authors contributed equally, stated in the paper&rsquo;s own author footnote.</p>
+    </section>
+
+    <section class="sec">
+      <h2>PRNU-based Detection of Finger Vein Presentation Attacks</h2>
+      <p class="byline"><span class="me">B. Maser</span>, D. S&ouml;llinger, A. Uhl</p>
+      <p class="venue">IEEE IWBF 2019 &middot; Mexico &middot; pp.&nbsp;1-6 &middot; <span class="role">Joint first author</span> &middot; WaveLab, University of Salzburg</p>
+      <ul class="paper-links">
+        <li><a href="https://doi.org/10.1109/IWBF.2019.8739203" rel="noopener">DOI</a></li>
+        <li><a href="https://ieeexplore.ieee.org/document/8739203/" rel="noopener">IEEE Xplore</a></li>
+        <li><a href="#bib-iwbf2019">BibTeX</a></li>
+      </ul>
+
+      <div class="abstract">
+        <span class="lab">Abstract, verbatim</span>
+        <p>In this work, we evaluated the effectiveness of the Photo Response Non-Uniformity (PRNU) to detect presentation/spoofing attacks for finger vein imagery. The performance is evaluated on two publicly-available finger vein presentation/spoofing attack datasets (IDIAP and SCUT-FVD). Maximum likelihood estimation (MLE) is used to estimate the sensor&rsquo;s PRNU. To decide whether a query image is real or spoofed, we compare its residual to the estimated sensor PRNU using PCE and NCC as similarity measures. We observe that the classification performance is heavily dependent on the set of images used for PRNU estimation. We assume different degrees of variability in image content caused by distinct light scattering properties in real tissue and artifacts to be one of the main reasons for the differences in classification performance.</p>
+      </div>
+
+      <div class="findings">
+        <div class="finding"><b>4.31%</b><span>best ACER, but see the caveat below</span></div>
+        <div class="finding"><b>0.792 / 0.903</b><span>AUC-ROC in the realistic setting: SCUT and IDIAP</span></div>
+        <div class="finding"><b>ISO 30107-3</b><span>scored with the standard PAD metrics: APCER, NPCER, ACER</span></div>
+      </div>
+
+      <p style="margin-top:1.75rem"><strong>What it does.</strong> Same signal, different question. Instead of asking <em>which sensor</em>, it asks <em>real finger or artifact</em>. The reasoning is physical: real tissue and a fake finger do not scatter near-infrared light the same way, so the residual left in the image differs.</p>
+
+      <figure>
+        <img src="../assets/research/iwbf19-samples-real-spoof.webp" alt="Samples from both datasets. The red box marks the region used for residual extraction." loading="lazy" decoding="async">
+        <figcaption>Samples from both datasets. The red box marks the region used for residual extraction.</figcaption>
+      </figure>
+
+      <div class="warn">
+        <span class="t">Read the 4.31% carefully</span>
+        <p>That ACER comes from one configuration only: the PRNU fingerprint built <strong>from the spoof images</strong>, with the Wiener filter. The paper flags this itself as a surprise: fingerprints built from real images do not always classify better.</p>
+        <p style="margin-top:.75rem">In the configuration a deployed system would actually have, a fingerprint estimated from <strong>real</strong> captures, the numbers are AUC-ROC <strong>0.792</strong> on SCUT-FVD and <strong>0.903</strong> on IDIAP. Quote those two if the question is whether this would work in the field.</p>
+      </div>
+
+      <details class="bib" id="bib-iwbf2019">
+        <summary>BibTeX</summary>
+<pre>@inproceedings{maser2019iwbf,
+  author    = {Maser, B. and S{\"o}llinger, Dominik and Uhl, Andreas},
+  title     = {PRNU-based Detection of Finger Vein Presentation Attacks},
+  booktitle = {Proc. 7th Int. Workshop on Biometrics and Forensics (IWBF)},
+  pages     = {1--6},
+  year      = {2019},
+  doi       = {10.1109/IWBF.2019.8739203}
+}</pre>
+      </details>
+    </section>
+
+    <section class="sec">
+      <h2>Identifying the Origin of Finger Vein Samples Using Texture Descriptors</h2>
+      <p class="byline"><span class="me">B. Maser</span>, A. Uhl</p>
+      <p class="venue">ICCSA 2021 &middot; Cagliari, Italy &middot; pp.&nbsp;237-250 &middot; <span class="role">Sole first author</span> &middot; WaveLab, University of Salzburg</p>
+      <ul class="paper-links">
+        <li><a href="https://doi.org/10.1007/978-3-030-86960-1_17" rel="noopener">DOI</a></li>
+        <li><a href="https://arxiv.org/abs/2102.03992" rel="noopener">arXiv, open access</a></li>
+        <li><a href="#bib-iccsa2021">BibTeX</a></li>
+      </ul>
+
+      <div class="workflow">
+        <svg viewBox="0 0 980 300" role="img" aria-label="Workflow: a finger-vein sample, optionally enhanced, is described by one of eight texture descriptors, and a one-versus-rest SVM tuned by grid search and four-fold cross-validation predicts which sensor produced it">
+          <defs>
+            <marker id="a4" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+              <path d="M0,0 L9,4.5 L0,9 z" fill="#9ec6bd"></path>
+            </marker>
+            <style>
+              .bx4{fill:#171a24;stroke:#2c3242;stroke-width:1.2}
+              .hi4{fill:#1d1a1e;stroke:#9ec6bd;stroke-width:1.4}
+              .t4 {font-family:'Space Grotesk',sans-serif;font-size:15px;fill:#e6e9ef}
+              .s4 {font-family:'Space Grotesk',sans-serif;font-size:12.5px;fill:#a8b0c0}
+              .m4 {font-family:'JetBrains Mono',monospace;font-size:10px;fill:#7d8698;letter-spacing:.14em}
+              .ac4{fill:#9ec6bd}
+              .ln4{stroke:#9ec6bd;stroke-width:1.4;fill:none;marker-end:url(#a4)}
+            </style>
+          </defs>
+          <rect class="bx4" x="8" y="104" width="176" height="58" rx="7"></rect>
+          <text class="t4" x="24" y="129">Sample or ROI</text>
+          <text class="m4" x="24" y="148">8 PUBLIC DATASETS</text>
+          <path class="ln4" d="M192,133 H220"></path>
+          <rect class="bx4" x="226" y="104" width="168" height="58" rx="7"></rect>
+          <text class="t4" x="242" y="129">Enhancement</text>
+          <text class="s4" x="242" y="148">on or off</text>
+          <path class="ln4" d="M402,133 H430"></path>
+          <rect class="hi4" x="436" y="86" width="256" height="94" rx="7"></rect>
+          <text class="m4 ac4" x="452" y="108">EIGHT TEXTURE DESCRIPTORS</text>
+          <text class="s4" x="452" y="130">FRF &middot; HLBP &middot; ULBP &middot; LE &middot; ImHist</text>
+          <text class="s4" x="452" y="150">WV &middot; WE &middot; <tspan class="ac4">WMV, new here</tspan></text>
+          <text class="m4" x="452" y="170">FREQUENCY &middot; SPATIAL &middot; WAVELET</text>
+          <path class="ln4" d="M700,133 H728"></path>
+          <rect class="bx4" x="734" y="104" width="238" height="58" rx="7"></rect>
+          <text class="t4" x="750" y="129">SVM, one vs rest</text>
+          <text class="s4" x="750" y="148">grid search &middot; 4-fold CV</text>
+          <text class="s4" x="8" y="236">PRNU needs uncorrelated data. A finger-vein dataset is the opposite of that: every</text>
+          <text class="s4" x="8" y="254">image is a finger, framed the same way, lit the same way. That is the opening this</text>
+          <text class="s4" x="8" y="272">paper works in: describe the texture instead of estimating a noise fingerprint.</text>
+        </svg>
+      </div>
+      <p class="wf-cap">Workflow drawn from the method described in the paper. Not a figure from the paper.</p>
+
+      <div class="abstract">
+        <span class="lab">Abstract, verbatim</span>
+        <p>Identifying the origin of a sample image in biometric systems can be beneficial for data authentication in case of attacks against the system and initiating sensor-specific processing pipelines in sensor-heterogeneous environments. Motivated by shortcomings of the photo response non-uniformity (PRNU) based method in the biometric context, we employ eight texture classification approaches, including frequency-, spatial-, and wavelet-based methods to detect finger vein samples images&rsquo; origin. Besides, We use eight publicly available finger vein datasets and applying all eight novel classical texture descriptors and SVM classification in the suggested pipeline. A novel wavelet-based approach termed WMV demonstrated an excellent result for raw finger vein samples and the more challenging region of interest data among mentioned employed methods to identify sensor model. The observed results establish texture descriptors as effective competitors to PRNU in finger vein sensor model identification.</p>
+      </div>
+
+      <div class="findings">
+        <div class="finding"><b>0.999</b><span>AUC-ROC on original samples: WMV, the descriptor introduced here</span></div>
+        <div class="finding"><b>0.994</b><span>on ROI data, which is the harder case</span></div>
+        <div class="finding"><b>8 descriptors</b><span>compared head to head on the same protocol</span></div>
+      </div>
+
+      <p style="margin-top:1.75rem"><strong>What it does.</strong> It names the weakness in the PRNU method and then routes around it. PRNU must be estimated from uncorrelated data, &ldquo;which is, of course, hard to satisfy given the high similarities among sample images present in biometric datasets,&rdquo; as the paper puts it, citing the ICB work above. Texture descriptors carry no such requirement. Eight of them are run, one is new, and an SVM decides which sensor produced the image.</p>
+
+      <h3>The eight descriptors, average AUC-ROC</h3>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Descriptor</th><th>Original, no enh.</th><th>Original, enh.</th><th>ROI, no enh.</th><th>ROI, enh.</th></tr></thead>
+          <tbody>
+            <tr><td>FRF</td><td>0.997</td><td>0.999</td><td>0.989</td><td>0.986</td></tr>
+            <tr><td>HLBP</td><td>0.992</td><td>0.994</td><td>0.941</td><td>0.955</td></tr>
+            <tr><td>ULBP</td><td>0.995</td><td>0.999</td><td>0.931</td><td>0.932</td></tr>
+            <tr><td>LE</td><td>0.919</td><td>0.952</td><td>0.834</td><td>0.858</td></tr>
+            <tr><td>ImHist</td><td>0.989</td><td>0.961</td><td>0.906</td><td>0.966</td></tr>
+            <tr><td>WV</td><td>0.998</td><td>0.998</td><td>0.984</td><td>0.983</td></tr>
+            <tr><td>WE</td><td>0.993</td><td>0.985</td><td>0.977</td><td>0.959</td></tr>
+            <tr><td><strong>WMV</strong></td><td><strong>0.999</strong></td><td><strong>0.999</strong></td><td><strong>0.982</strong></td><td><strong>0.994</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:1rem">WMV takes a 2-D wavelet decomposition with Daubechies 8-tap filters and computes the mean and variance per subband. It is the only descriptor that stays above 0.99 in all four columns.</p>
+
+      <h3>One region of interest from each dataset</h3>
+      <div class="figquad">
+        <figure><img src="../assets/research/iccsa-roi-fv-usm.webp" alt="FV-USM" loading="lazy" decoding="async"><figcaption>FV-USM</figcaption></figure>
+        <figure><img src="../assets/research/iccsa-roi-hkpu-fv.webp" alt="HKPU-FV" loading="lazy" decoding="async"><figcaption>HKPU-FV</figcaption></figure>
+        <figure><img src="../assets/research/iccsa-roi-idiap-vera.webp" alt="IDIAP VERA" loading="lazy" decoding="async"><figcaption>IDIAP VERA</figcaption></figure>
+        <figure><img src="../assets/research/iccsa-roi-mmcbnu.webp" alt="MMCBNU_6000" loading="lazy" decoding="async"><figcaption>MMCBNU_6000</figcaption></figure>
+        <figure><img src="../assets/research/iccsa-roi-plus-palmar.webp" alt="PLUS-FV3-Laser-Palmar" loading="lazy" decoding="async"><figcaption>PLUS-FV3-Laser-Palmar</figcaption></figure>
+        <figure><img src="../assets/research/iccsa-roi-sdumla.webp" alt="SDUMLA-HMT" loading="lazy" decoding="async"><figcaption>SDUMLA-HMT</figcaption></figure>
+        <figure><img src="../assets/research/iccsa-roi-thu-fvfdt.webp" alt="THU-FVFDT" loading="lazy" decoding="async"><figcaption>THU-FVFDT</figcaption></figure>
+        <figure><img src="../assets/research/iccsa-roi-utfvp.webp" alt="UTFVP" loading="lazy" decoding="async"><figcaption>UTFVP</figcaption></figure>
+      </div>
+      <p style="margin-top:1.75rem">These eight are the same eight datasets used by every paper on this page.</p>
+
+      <details class="bib" id="bib-iccsa2021">
+        <summary>BibTeX</summary>
+<pre>@inproceedings{maser2021iccsa,
+  author    = {Maser, B. and Uhl, Andreas},
+  title     = {Identifying the Origin of Finger Vein Samples Using Texture Descriptors},
+  booktitle = {Computational Science and Its Applications (ICCSA 2021)},
+  series    = {Lecture Notes in Computer Science},
+  pages     = {237--250},
+  year      = {2021},
+  doi       = {10.1007/978-3-030-86960-1_17}
+}</pre>
+      </details>
+    </section>
+
+    <section class="sec">
+      <h2>Using CNNs to Identify the Origin of Finger Vein Sample Images</h2>
+      <p class="byline"><span class="me">B. Maser</span>, A. Uhl</p>
+      <p class="venue">IEEE IWBF 2021 &middot; Rome, Italy &middot; pp.&nbsp;1-6 &middot; <span class="role">Sole first author</span> &middot; WaveLab, University of Salzburg</p>
+      <ul class="paper-links">
+        <li><a href="https://doi.org/10.1109/IWBF50991.2021.9465077" rel="noopener">DOI</a></li>
+        <li><a href="https://arxiv.org/abs/2103.01632" rel="noopener">arXiv, open access</a></li>
+        <li><a href="#bib-iwbf2021">BibTeX</a></li>
+      </ul>
+
+      <div class="workflow">
+        <img src="../assets/research/iwbf21-fv2021-architecture.png" alt="FV2021 architecture: 96 by 96 by 1 input, a 7x7 separable convolution at stride 2, then two residual blocks of batch-norm, ReLU and 3x3 separable convolutions with skip connections, producing 24 by 24 by 64 feature maps" loading="lazy" decoding="async">
+      </div>
+      <p class="wf-cap">Figure from the paper: &ldquo;Proposed model: FV2021 CNN Architecture&rdquo;</p>
+
+      <div class="abstract">
+        <span class="lab">Abstract, verbatim</span>
+        <p>We study the finger vein (FV) sensor model identification task using a deep learning approach. So far, for this biometric modality, only correlation-based PRNU and texture descriptor-based methods have been applied. We employ five prominent CNN architectures covering a wide range of CNN family models, including VGG16, ResNet, and the Xception model. In addition, a novel architecture termed FV2021 is proposed in this work, which excels by its compactness and a low number of parameters to be trained. Original samples, as well as the region of interest data from eight publicly accessible FV datasets, are used in experimentation. An excellent sensor identification AUC-ROC score of 1.0 for patches of uncropped samples and 0.9997 for ROI samples have been achieved. The comparison with former methods shows that the CNN-based approach is superior and improved the results.</p>
+      </div>
+
+      <div class="findings">
+        <div class="finding"><b>1.00000</b><span>FV2021 AUC-ROC on uncropped patches; 0.99970 on ROI</span></div>
+        <div class="finding"><b>314,632</b><span>parameters in FV2021, against 65.5 million in the largest baseline</span></div>
+        <div class="finding"><b>208&times;</b><span>smaller than that baseline, at the same score</span></div>
+      </div>
+
+      <p style="margin-top:1.75rem"><strong>What it does.</strong> Six CNNs are trained on 96&times;96 patches with CLAHE contrast enhancement and a softmax over the eight sensors: two forensics models from the literature (Bondi, Marra), three general architectures (VGG16, ResNet50, Xception), and FV2021, designed here. The point of FV2021 is not a higher score, several models reach the ceiling. It is that it reaches the ceiling while being small enough to be cheap.</p>
+
+      <h3>Model size</h3>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Model</th><th>Total params</th><th>Layers</th></tr></thead>
+          <tbody>
+            <tr><td>Bondi</td><td>2,681,368</td><td>4 conv + 2 FC</td></tr>
+            <tr><td>Marra</td><td>65,563,720</td><td>3 conv + 2 FC</td></tr>
+            <tr><td>VGG16</td><td>55,097,288</td><td>8 conv + 3 FC</td></tr>
+            <tr><td>ResNet50</td><td>23,597,832</td><td>50 conv + 1 FC</td></tr>
+            <tr><td>Xception</td><td>20,877,296</td><td>36 conv + 1 FC</td></tr>
+            <tr><td><strong>FV2021</strong></td><td><strong>314,632</strong></td><td>6 conv + 1 FC</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Sensor identification, AUC-ROC</h3>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Model</th><th>Uncropped</th><th>ROI</th></tr></thead>
+          <tbody>
+            <tr><td>Bondi</td><td>0.99997</td><td>0.99773</td></tr>
+            <tr><td>Marra</td><td>1.00000</td><td>0.99856</td></tr>
+            <tr><td>VGG16</td><td>1.00000</td><td>0.99945</td></tr>
+            <tr><td>ResNet50</td><td>0.99996</td><td>0.99949</td></tr>
+            <tr><td>Xception</td><td>1.00000</td><td>0.99972</td></tr>
+            <tr><td><strong>FV2021</strong></td><td><strong>1.00000</strong></td><td><strong>0.99970</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <figure>
+        <img src="../assets/research/iwbf21-attack-points.webp" alt="Where an insertion attack and a presentation attack enter a biometric system, the two points this whole line of work is aimed at" loading="lazy" decoding="async">
+        <figcaption>Where an insertion attack and a presentation attack enter a biometric system, the two points this whole line of work is aimed at</figcaption>
+      </figure>
+
+      <div class="warn">
+        <span class="t">The scale behind the perfect score</span>
+        <p>The paper states its own protocol: 120 images per dataset, <strong>960 images in total</strong>. A score of 1.00000 on 960 images is a benchmark ceiling on a clean, balanced, eight-way problem. It is not a claim about field deployment, and the paper does not make one.</p>
+      </div>
+
+      <p style="margin-top:1.75rem">Funded by the Austrian Science Fund (FWF), project P32201.</p>
+
+      <details class="bib" id="bib-iwbf2021">
+        <summary>BibTeX</summary>
+<pre>@inproceedings{maser2021iwbf,
+  author    = {Maser, B. and Uhl, Andreas},
+  title     = {Using CNNs to Identify the Origin of Finger Vein Sample Images},
+  booktitle = {Proc. 9th Int. Workshop on Biometrics and Forensics (IWBF)},
+  pages     = {1--6},
+  year      = {2021},
+  doi       = {10.1109/IWBF50991.2021.9465077}
+}</pre>
+      </details>
+    </section>
+
+  </div>
+</main>
+
+<footer id="contact">
+  <div class="wrap foot-grid">
+    <p class="foot-note">Bob Maser. Computer Vision Researcher and Machine Learning Engineer, Canada. The best way to reach me is <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">linkedin.com/in/bobmaser</a>.</p>
+    <div class="foot-links">
+      <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/BMaser" rel="noopener">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=lzCKAYAAAAAJ" rel="noopener">Google Scholar</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

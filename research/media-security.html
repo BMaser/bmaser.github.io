@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Media security and data formats</title>
+<meta name="description" content="Two papers on how far a finger-vein image can be compressed before recognition starts to fail.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Media security and data formats">
+<meta property="og:description" content="Two papers on how far a finger-vein image can be compressed before recognition starts to fail.">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="../assets/page.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="topnav" aria-label="Site navigation">
+  <div class="wrap">
+    <a class="nav-mark" href="../index.html">Bob Maser</a>
+    <a class="nav-link" href="../index.html#about">About</a>
+    <a class="nav-link" href="../index.html#experience">Experience</a>
+    <a class="nav-link" href="../index.html#research">Research</a>
+    <a class="nav-link" href="../index.html#skills">Skills</a>
+    <a class="nav-link" href="../index.html#publications">Publications</a>
+    <a class="nav-link" href="../index.html#education">Education</a>
+    <a class="nav-link" href="../courses.html">Courses</a>
+    <a class="nav-link" href="../index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="kicker">Past work &middot; compression</p>
+    <h1>Media security and data formats</h1>
+    <p class="lede">Two papers on how far a finger-vein image can be compressed before recognition starts to fail.</p>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap band">
+
+    <div class="note">
+      <p>Abstracts are quoted verbatim from the papers. Venues, authors, page numbers and DOIs were verified against the University of Salzburg repository and dblp. <strong>The workflow diagrams were drawn for this page</strong>, neither paper contains a pipeline figure, so each diagram follows the method its paper describes and is labelled as such below.</p>
+    </div>
+
+    <section class="sec" style="margin-top:clamp(2rem,5vw,3rem)">
+      <h2>Finger Vein Image Compression with Uniform Background</h2>
+      <p class="byline"><span class="me">B. Maser</span>, Jutta H&auml;mmerle-Uhl, Tamara Lipowski, Andreas Uhl</p>
+      <p class="venue">ACM ICBEA 2019 &middot; Stockholm &middot; pp.&nbsp;23-27 &middot; <span class="role">Sole first author</span> &middot; WaveLab, University of Salzburg</p>
+      <ul class="paper-links">
+        <li><a href="https://doi.org/10.1145/3345336.3345347" rel="noopener">DOI</a></li>
+        <li><a href="https://uni-salzburg.elsevierpure.com/en/publications/finger-vein-image-compression-with-uniform-background/" rel="noopener">Record</a></li>
+        <li><a href="#bib-icbea2019">BibTeX</a></li>
+      </ul>
+
+      <div class="workflow">
+        <svg viewBox="0 0 980 320" role="img" aria-label="Workflow: finger-vein image, background replaced with uniform grey, boundary smoothed, then evaluated for lossless compression and for lossy compression with recognition">
+          <defs>
+            <marker id="a1" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+              <path d="M0,0 L9,4.5 L0,9 z" fill="#9ec6bd"></path>
+            </marker>
+            <style>
+              .bx{fill:#171a24;stroke:#2c3242;stroke-width:1.2}
+              .hi{fill:#1d1a1e;stroke:#9ec6bd;stroke-width:1.4}
+              .t {font-family:'Space Grotesk',sans-serif;font-size:15px;fill:#e6e9ef}
+              .s {font-family:'Space Grotesk',sans-serif;font-size:12.5px;fill:#a8b0c0}
+              .m {font-family:'JetBrains Mono',monospace;font-size:10px;fill:#7d8698;letter-spacing:.14em}
+              .ac{fill:#9ec6bd}
+              .ln{stroke:#9ec6bd;stroke-width:1.4;fill:none;marker-end:url(#a1)}
+            </style>
+          </defs>
+          <rect class="bx" x="8" y="118" width="196" height="58" rx="7"></rect>
+          <text class="t" x="24" y="143">Finger-vein image</text>
+          <text class="m" x="24" y="162">SDUMLA-HMT &middot; UTFVP</text>
+          <path class="ln" d="M212,147 H240"></path>
+          <rect class="bx" x="246" y="118" width="234" height="58" rx="7"></rect>
+          <text class="t" x="262" y="143">Replace background</text>
+          <text class="s" x="262" y="162">with uniform grey (0.1)</text>
+          <path class="ln" d="M488,147 H516"></path>
+          <rect class="hi" x="522" y="118" width="186" height="58" rx="7"></rect>
+          <text class="t" x="538" y="143">Smooth the edge</text>
+          <text class="m ac" x="538" y="162">THE CRITICAL STEP</text>
+          <path class="ln" d="M716,147 H744 V78 H756"></path>
+          <path class="ln" d="M716,147 H744 V216 H756"></path>
+          <rect class="bx" x="762" y="44" width="210" height="70" rx="7"></rect>
+          <text class="m" x="778" y="66">LOSSLESS &middot; 6 CODECS</text>
+          <text class="t ac" x="778" y="90">&#8776;2&times; smaller</text>
+          <text class="s" x="778" y="106">PNG 45 &#8594; 25 KB</text>
+          <rect class="bx" x="762" y="182" width="210" height="70" rx="7"></rect>
+          <text class="m" x="778" y="204">LOSSY &#8594; MC / SIFT</text>
+          <text class="t ac" x="778" y="228">holds to ratio &#8776;40</text>
+          <text class="s" x="778" y="244">recognition measured as EER</text>
+          <text class="s" x="8" y="296">Skip the smoothing and the new sharp boundary creates compression artifacts that</text>
+          <text class="s" x="8" y="314">make recognition worse, not better. That is the paper&rsquo;s central caution.</text>
+        </svg>
+      </div>
+      <p class="wf-cap">Workflow drawn from the method described in the paper. Not a figure from the paper.</p>
+
+      <div class="abstract">
+        <span class="lab">Abstract, verbatim</span>
+        <p>We propose to replace the background data in finger vein imagery by uniform gray data and implications on (i) achieved lossless compression performance and (ii) obtained recognition accuracy in case of lossy compression are determined employing 2 public datasets. Results indicate that replacement of original background by uniform one is definitely profitable for lossless compression, while the lossy case with impact on recognition accuracy has to be handled with caution as introduced sharp edges between finger area and background lead to artifacts which in turn degrade recognition performance. After having smoothed those areas, recognition performance is improved when replacing background for all settings.</p>
+      </div>
+
+      <div class="findings">
+        <div class="finding"><b>&#8776;2&times;</b><span>smaller lossless files: PNG 45 &#8594; 25 KB, JPEG-LS 298 &#8594; 168 KB</span></div>
+        <div class="finding"><b>ratio 40</b><span>how far the lossy gains hold before recognition suffers</span></div>
+        <div class="finding"><b>2 datasets</b><span>SDUMLA-HMT and UTFVP, both public</span></div>
+      </div>
+
+      <p style="margin-top:1.75rem"><strong>What it does.</strong> Segment the finger from the background, paint the background a single flat grey, then smooth the boundary that this creates. Evaluate twice: six lossless codecs for file size, and the lossy codec set followed by Maximum Curvature and SIFT recognition for accuracy.</p>
+
+      <h3>The change, on real samples</h3>
+      <div class="figrow">
+        <figure>
+          <img src="../assets/research/icbea-utfvp-original.webp" alt="Original (UTFVP)" loading="lazy" decoding="async">
+          <figcaption>Original (UTFVP)</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/research/icbea-utfvp-uniform.webp" alt="Background replaced with uniform grey (UTFVP)" loading="lazy" decoding="async">
+          <figcaption>Background replaced with uniform grey (UTFVP)</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/research/icbea-sdumla-original.webp" alt="Original (SDUMLA-HMT)" loading="lazy" decoding="async">
+          <figcaption>Original (SDUMLA-HMT)</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/research/icbea-sdumla-uniform.webp" alt="Background replaced with uniform grey (SDUMLA-HMT)" loading="lazy" decoding="async">
+          <figcaption>Background replaced with uniform grey (SDUMLA-HMT)</figcaption>
+        </figure>
+      </div>
+
+      <h3>Recognition under compression</h3>
+      <div class="figrow">
+        <figure>
+          <img src="../assets/research/icbea-fig3-mc-utfvp-j2k.webp" alt="Maximum Curvature on UTFVP, JPEG 2000" loading="lazy" decoding="async">
+          <figcaption>Maximum Curvature on UTFVP, JPEG 2000</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/research/icbea-fig4-sift-sdumla-j2k.webp" alt="SIFT on SDUMLA-HMT, JPEG 2000" loading="lazy" decoding="async">
+          <figcaption>SIFT on SDUMLA-HMT, JPEG 2000</figcaption>
+        </figure>
+      </div>
+
+      <div class="warn">
+        <span class="t">The limit the paper itself states</span>
+        <p>The gain depends on how much background a dataset has. Both datasets here have similar background fractions, so the &#8776;2&times; figure <strong>may not transfer</strong> to a dataset framed differently.</p>
+      </div>
+
+      <p style="margin-top:1.75rem">Funded by the Austrian Science Fund (FWF), grant 27776.</p>
+
+      <details class="bib" id="bib-icbea2019">
+        <summary>BibTeX</summary>
+<pre>@inproceedings{maser2019icbea,
+  author    = {Maser, B. and H{\"a}mmerle-Uhl, Jutta and Lipowski, Tamara and Uhl, Andreas},
+  title     = {Finger Vein Image Compression with Uniform Background},
+  booktitle = {Proc. 3rd Int. Conf. on Biometric Engineering and Applications (ICBEA)},
+  pages     = {23--27},
+  year      = {2019},
+  doi       = {10.1145/3345336.3345347}
+}</pre>
+      </details>
+    </section>
+
+    <section class="sec">
+      <h2>Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data</h2>
+      <p class="byline">Tamara Lipowski, <span class="me">B. Maser</span>, Jutta H&auml;mmerle-Uhl, Andreas Uhl</p>
+      <p class="venue">BIOSIG 2018 &middot; Darmstadt &middot; pp.&nbsp;1-5 &middot; <span class="role">Second author</span> &middot; Media Data Formats Lab, University of Salzburg</p>
+      <ul class="paper-links">
+        <li><a href="https://doi.org/10.23919/BIOSIG.2018.8553484" rel="noopener">DOI</a></li>
+        <li><a href="https://dl.gi.de/server/api/core/bitstreams/a0d721cb-dadf-48ad-8435-aa6a100b0d30/content" rel="noopener">PDF, open access</a></li>
+        <li><a href="#bib-biosig2018">BibTeX</a></li>
+      </ul>
+
+      <div class="workflow">
+        <svg viewBox="0 0 980 300" role="img" aria-label="Workflow: a gallery compressed years earlier and a newly compressed probe are matched, and the equal error rate measured">
+          <defs>
+            <marker id="a2" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+              <path d="M0,0 L9,4.5 L0,9 z" fill="#9ec6bd"></path>
+            </marker>
+            <style>
+              .bx2{fill:#171a24;stroke:#2c3242;stroke-width:1.2}
+              .t2 {font-family:'Space Grotesk',sans-serif;font-size:15px;fill:#e6e9ef}
+              .s2 {font-family:'Space Grotesk',sans-serif;font-size:12.5px;fill:#a8b0c0}
+              .m2 {font-family:'JetBrains Mono',monospace;font-size:10px;fill:#7d8698;letter-spacing:.14em}
+              .ac2{fill:#9ec6bd}
+              .ln2{stroke:#9ec6bd;stroke-width:1.4;fill:none;marker-end:url(#a2)}
+            </style>
+          </defs>
+          <text class="m2 ac2" x="8" y="30">GALLERY &middot; STORED YEARS EARLIER</text>
+          <rect class="bx2" x="8" y="42" width="150" height="54" rx="7"></rect>
+          <text class="t2" x="24" y="66">Gallery images</text>
+          <text class="m2" x="24" y="84">ENROLLED</text>
+          <path class="ln2" d="M166,69 H194"></path>
+          <rect class="bx2" x="200" y="42" width="286" height="54" rx="7"></rect>
+          <text class="t2" x="216" y="66">Already compressed</text>
+          <text class="s2" x="216" y="84">JPEG or JPEG 2000, ratio 10 or 30</text>
+          <text class="m2 ac2" x="8" y="176">PROBE &middot; CAPTURED NOW</text>
+          <rect class="bx2" x="8" y="188" width="150" height="54" rx="7"></rect>
+          <text class="t2" x="24" y="212">New sample</text>
+          <text class="m2" x="24" y="230">TO VERIFY</text>
+          <path class="ln2" d="M166,215 H194"></path>
+          <rect class="bx2" x="200" y="188" width="286" height="54" rx="7"></rect>
+          <text class="t2" x="216" y="212">Compressed how?</text>
+          <text class="s2" x="216" y="230">JPEG &middot; JPEG 2000 +3 ROI &middot; JPEG-XR &middot; BPG</text>
+          <path class="ln2" d="M494,69  H528 V132 H556"></path>
+          <path class="ln2" d="M494,215 H528 V152 H556"></path>
+          <rect class="bx2" x="562" y="114" width="212" height="56" rx="7"></rect>
+          <text class="t2" x="578" y="138">Matching</text>
+          <text class="s2" x="578" y="156">Maximum Curvature &middot; SIFT</text>
+          <path class="ln2" d="M782,142 H812"></path>
+          <rect class="bx2" x="818" y="114" width="154" height="56" rx="7"></rect>
+          <text class="m2" x="834" y="136">MEASURED AS</text>
+          <text class="t2 ac2" x="834" y="158">Equal Error Rate</text>
+          <text class="s2" x="8" y="278">The question is not how to compress, but how to compress a new sample when the</text>
+          <text class="s2" x="8" y="296">gallery it must match was compressed with older technology at a different ratio.</text>
+        </svg>
+      </div>
+      <p class="wf-cap">Workflow drawn from the method described in the paper. Not a figure from the paper.</p>
+
+      <div class="abstract">
+        <span class="lab">Abstract, verbatim</span>
+        <p>Compression settings for sample (probe) finger vein data in case of already pre-compressed gallery data are investigated. Inhomogeneous compression scenarios are assessed where probe data can be compressed with different compression technique and compression ratio compared to gallery data using 4 lossy compression schemes, 2 finger vein recognition schemes, and 2 data sets. Results obtained indicate that in case of JPEG2000 pre-compressed gallery, also sample images should be compressed in the same manner, while for JPEG pre-compressed gallery, the optimal sample compression setting depends on the dataset, on the target compression ratio, and on the recognition scheme employed.</p>
+      </div>
+
+      <div class="findings">
+        <div class="finding"><b>ratio 30</b><span>JPEG holds only this far; past it error rates rise sharply</span></div>
+        <div class="finding"><b>0.14</b><span>largest EER gap observed between compression settings</span></div>
+        <div class="finding"><b>match it</b><span>with a JPEG 2000 gallery, compress the probe the same way</span></div>
+      </div>
+
+      <p style="margin-top:1.75rem"><strong>What it does.</strong> Compress the gallery the way it would have been years ago, compress a fresh probe every other way, match them with two recognition schemes, and see which probe setting survives. The answer is clean for a JPEG 2000 gallery and messy for a JPEG one: there it depends on the dataset, the target ratio, and the recognition scheme.</p>
+
+      <h3>Results</h3>
+      <div class="figrow">
+        <figure>
+          <img src="../assets/research/biosig-fig1-mc-utfvp-j2k.webp" alt="Maximum Curvature on UTFVP, JPEG 2000 gallery, with JPEG, and without" loading="lazy" decoding="async">
+          <figcaption>Maximum Curvature on UTFVP, JPEG 2000 gallery, with JPEG, and without</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/research/biosig-fig2-sift-utfvp-jpeg.webp" alt="SIFT on UTFVP, JPEG gallery at ratio 10 and ratio 30" loading="lazy" decoding="async">
+          <figcaption>SIFT on UTFVP, JPEG gallery at ratio 10 and ratio 30</figcaption>
+        </figure>
+      </div>
+
+      <p style="margin-top:1.75rem">The grey line climbing off the top of both charts is JPEG. It tracks the others to about ratio 30, then the error rate explodes.</p>
+
+      <details class="bib" id="bib-biosig2018">
+        <summary>BibTeX</summary>
+<pre>@inproceedings{lipowski2018biosig,
+  author    = {Lipowski, Tamara and Maser, B. and H{\"a}mmerle-Uhl, Jutta and Uhl, Andreas},
+  title     = {Finger-vein Sample Compression in Presence of Pre-Compressed Gallery Data},
+  booktitle = {Proc. Int. Conf. of the Biometrics Special Interest Group (BIOSIG)},
+  pages     = {1--5},
+  year      = {2018},
+  doi       = {10.23919/BIOSIG.2018.8553484}
+}</pre>
+      </details>
+    </section>
+
+  </div>
+</main>
+
+<footer id="contact">
+  <div class="wrap foot-grid">
+    <p class="foot-note">Bob Maser. Computer Vision Researcher and Machine Learning Engineer, Canada. The best way to reach me is <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">linkedin.com/in/bobmaser</a>.</p>
+    <div class="foot-links">
+      <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/BMaser" rel="noopener">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=lzCKAYAAAAAJ" rel="noopener">Google Scholar</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

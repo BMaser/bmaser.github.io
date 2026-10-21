@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-UAV thermal imaging</title>
+<meta name="description" content="Detecting small drones in thermal video when the camera itself is moving.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Counter-UAV thermal imaging">
+<meta property="og:description" content="Detecting small drones in thermal video when the camera itself is moving.">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="../assets/page.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="topnav" aria-label="Site navigation">
+  <div class="wrap">
+    <a class="nav-mark" href="../index.html">Bob Maser</a>
+    <a class="nav-link" href="../index.html#about">About</a>
+    <a class="nav-link" href="../index.html#experience">Experience</a>
+    <a class="nav-link" href="../index.html#research">Research</a>
+    <a class="nav-link" href="../index.html#skills">Skills</a>
+    <a class="nav-link" href="../index.html#publications">Publications</a>
+    <a class="nav-link" href="../index.html#education">Education</a>
+    <a class="nav-link" href="../courses.html">Courses</a>
+    <a class="nav-link" href="../index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="kicker">Current work &middot; UAV detection</p>
+    <h1>Counter-UAV thermal imaging</h1>
+    <p class="lede">Detecting small drones in thermal video when the camera itself is moving.</p>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap band">
+
+    <div class="note">
+      <p>The abstract is quoted verbatim from the paper. Every number below was checked against the table it comes from in the paper itself. Figures are the paper&rsquo;s own, with the paper&rsquo;s own captions, except the one diagram labelled as drawn for this page.</p>
+    </div>
+
+    <section class="sec" style="margin-top:clamp(2rem,5vw,3rem)">
+      <h2>Optical Flow-Enhanced Thermal UAV Detection Under Camera Ego-Motion for Real-Time Tactical C-UAV</h2>
+      <p class="byline"><span class="me">Bob Maser</span>, Adam Srebrnjak Yang, Adrian Ramlal, John Zelek</p>
+      <p class="venue">J. Computational Vision and Imaging Systems 11(1) &middot; pp.&nbsp;122-127 &middot; Proc. CVIS 2025 &middot; journal record published 2026-03-01 &middot; <span class="role">Sole first author</span> &middot; VIP Lab, University of Waterloo</p>
+      <ul class="paper-links">
+        <li><a href="https://openjournals.uwaterloo.ca/index.php/vsl/article/view/7216" rel="noopener">Journal record</a></li>
+        <li><a href="#bib-cvis2025">BibTeX</a></li>
+      </ul>
+
+      <div class="workflow">
+        <svg viewBox="0 0 980 330" role="img" aria-label="Workflow: two consecutive thermal frames go through Farneback dense optical flow to produce horizontal and vertical motion channels, which are stacked with the current thermal frame into a three-channel input, passed to a YOLO11 detector whose first convolution is replaced by a dual-path OpticalFlowConv stem with learnable fusion, producing detections, with an optional tracker and coherence filter afterwards">
+          <defs>
+            <marker id="a5" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+              <path d="M0,0 L9,4.5 L0,9 z" fill="#9ec6bd"></path>
+            </marker>
+            <style>
+              .bx5{fill:#171a24;stroke:#2c3242;stroke-width:1.2}
+              .hi5{fill:#1d1a1e;stroke:#9ec6bd;stroke-width:1.4}
+              .dh5{fill:#141720;stroke:#2c3242;stroke-width:1.2;stroke-dasharray:5 4}
+              .t5 {font-family:'Space Grotesk',sans-serif;font-size:15px;fill:#e6e9ef}
+              .s5 {font-family:'Space Grotesk',sans-serif;font-size:12.5px;fill:#a8b0c0}
+              .m5 {font-family:'JetBrains Mono',monospace;font-size:10px;fill:#7d8698;letter-spacing:.14em}
+              .ac5{fill:#9ec6bd}
+              .ln5{stroke:#9ec6bd;stroke-width:1.4;fill:none;marker-end:url(#a5)}
+              .lg5{stroke:#3a4256;stroke-width:1.4;fill:none;marker-end:url(#a5)}
+            </style>
+          </defs>
+          <rect class="bx5" x="8" y="92" width="164" height="62" rx="7"></rect>
+          <text class="t5" x="24" y="118">Thermal frames</text>
+          <text class="m5" x="24" y="137">I(t-1) AND I(t)</text>
+          <path class="ln5" d="M180,123 H208"></path>
+          <rect class="bx5" x="214" y="92" width="186" height="62" rx="7"></rect>
+          <text class="t5" x="230" y="118">Dense optical flow</text>
+          <text class="s5" x="230" y="137">Farneb&auml;ck</text>
+          <path class="ln5" d="M408,123 H436"></path>
+          <rect class="bx5" x="442" y="76" width="176" height="94" rx="7"></rect>
+          <text class="m5" x="458" y="98">THREE-CHANNEL INPUT</text>
+          <text class="s5" x="458" y="120">thermal appearance</text>
+          <text class="s5" x="458" y="139">horizontal flow u</text>
+          <text class="s5" x="458" y="158">vertical flow v</text>
+          <path class="ln5" d="M626,123 H654"></path>
+          <rect class="hi5" x="660" y="76" width="204" height="94" rx="7"></rect>
+          <text class="m5 ac5" x="676" y="98">OpticalFlowConv STEM</text>
+          <text class="s5" x="676" y="120">two paths, kept apart:</text>
+          <text class="s5" x="676" y="139">appearance &middot; motion</text>
+          <text class="s5 ac5" x="676" y="158">then learnable fusion</text>
+          <path class="ln5" d="M872,123 H900 V196 H864"></path>
+          <rect class="bx5" x="660" y="168" width="204" height="56" rx="7"></rect>
+          <text class="t5" x="676" y="192">YOLO11 detector</text>
+          <text class="m5 ac5" x="676" y="211">mAP50 0.358</text>
+          <path class="lg5" d="M658,196 H436"></path>
+          <rect class="dh5" x="214" y="168" width="216" height="56" rx="7"></rect>
+          <text class="s5" x="230" y="192">BoT-SORT + coherence filter</text>
+          <text class="m5" x="230" y="211">OPTIONAL &middot; NOT IN THE SCORES</text>
+          <text class="s5" x="8" y="272">When the camera moves, everything in the frame moves. That destroys the motion cue a</text>
+          <text class="s5" x="8" y="290">small drone would otherwise give away. The flow channels put that cue back, and the</text>
+          <text class="s5" x="8" y="308">split stem stops the detector mixing motion and appearance in its very first layer.</text>
+        </svg>
+      </div>
+      <p class="wf-cap">Workflow drawn from the method described in the paper. Not a figure from the paper.</p>
+
+      <div class="abstract">
+        <span class="lab">Abstract, verbatim</span>
+        <p>Thermal UAV detection from mobile platforms is difficult because camera ego-motion corrupts the motion cues needed to detect small airborne targets. We present an optical flow-enhanced YOLO detector that fuses thermal appearance with dense horizontal and vertical flow channels through a custom <code>OpticalFlowConv</code> stem. On the Anti-UAV thermal benchmark (233,667 frames across 205 sequences), using a sequential per-sequence split that preserves temporal order, the proposed detector reaches 35.8% mAP50 and 21.9% mAP50-95, outperforming a single-frame YOLO11 baseline by 11.3 mAP50 points and a frame-differencing baseline by 9.1 points. These results support motion-enhanced thermal detection as a practical sensing component for mobile tactical C-UAV systems under significant camera motion.</p>
+      </div>
+
+      <div class="findings">
+        <div class="finding"><b>35.8%</b><span>mAP50, against 24.5% for YOLO11 and 26.7% for frame differencing</span></div>
+        <div class="finding"><b>+11.3</b><span>mAP50 points over the single-frame baseline</span></div>
+        <div class="finding"><b>233,667</b><span>frames across 205 sequences in the Anti-UAV benchmark</span></div>
+      </div>
+
+      <p style="margin-top:1.75rem"><strong>The problem.</strong> A drone in a thermal frame is a handful of pixels. It has almost no appearance to recognise, so a detector leans on motion instead. But if the camera is handheld or vehicle-mounted, the whole scene moves (buildings, trees, horizon) and the drone&rsquo;s own motion disappears into that. Frame differencing, the usual cheap fix, breaks for exactly this reason.</p>
+      <p><strong>The method.</strong> Compute dense optical flow between consecutive thermal frames with Farneb&auml;ck&rsquo;s method. Keep the horizontal and vertical components as two extra channels alongside the thermal frame. Feed all three to YOLO11, but replace its first convolution, which would blend the channels immediately, with a stem that processes appearance and motion on separate paths and only then fuses them, with the fusion weights learned.</p>
+
+      <h3>The three input channels</h3>
+      <figure>
+        <img src="../assets/research/cvis-fig4-flow-channels.webp" alt="Three-channel detector input: current thermal frame I_t, horizontal flow \tilde{u}_t, and vertical flow \tilde{v}_t." loading="lazy" decoding="async">
+        <figcaption>Three-channel detector input: current thermal frame <em>I</em><sub>t</sub>, horizontal flow <em>&#365;</em><sub>t</sub>, and vertical flow <em>&#7869;</em><sub>t</sub>.</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/research/cvis-fig6-ground-truth.webp" alt="Thermal frame and optical-flow channels with ground-truth annotation. The UAV target remains small in appearance space but exhibits a distinctive localized motion signature in the horizontal and vertical flow components." loading="lazy" decoding="async">
+        <figcaption>Thermal frame and optical-flow channels with ground-truth annotation. The UAV target remains small in appearance space but exhibits a distinctive localized motion signature in the horizontal and vertical flow components.</figcaption>
+      </figure>
+
+      <h3>Results on the Anti-UAV validation partition</h3>
+      <p>Sequential per-sequence protocol, which keeps frames in temporal order rather than shuffling them.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Method</th><th>mAP50</th><th>mAP50-95</th><th>Precision</th><th>Recall</th></tr></thead>
+          <tbody>
+            <tr><td>YOLO11</td><td>0.245</td><td>0.156</td><td>0.312</td><td>0.234</td></tr>
+            <tr><td>Frame differencing</td><td>0.267</td><td>0.171</td><td>0.328</td><td>0.251</td></tr>
+            <tr><td><strong>Ours</strong></td><td><strong>0.358</strong></td><td><strong>0.219</strong></td><td><strong>0.401</strong></td><td><strong>0.324</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>What the split stem is worth</h3>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Configuration</th><th>mAP50</th><th>mAP50-95</th></tr></thead>
+          <tbody>
+            <tr><td>Standard convolution</td><td>0.312</td><td>0.189</td></tr>
+            <tr><td>Separate branches</td><td>0.341</td><td>0.207</td></tr>
+            <tr><td><strong>+ learnable fusion</strong></td><td><strong>0.358</strong></td><td><strong>0.219</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:1rem">The three-channel input alone gets 0.312. Keeping appearance and motion apart adds 0.029. Learning how to recombine them adds another 0.017.</p>
+
+      <h3>The harder the camera shakes, the bigger the gap</h3>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Camera motion</th><th>Frame differencing</th><th>Ours</th></tr></thead>
+          <tbody>
+            <tr><td>Low</td><td>0.289</td><td>0.387</td></tr>
+            <tr><td>Medium</td><td>0.251</td><td>0.342</td></tr>
+            <tr><td>High</td><td>0.204</td><td>0.315</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:1rem">Frame differencing loses 29% of its score from low to high motion. This method loses 19%, and its lead widens from 9.8 points to 11.1.</p>
+
+      <h3>Keeping a track alive</h3>
+      <figure style="max-width:50%">
+        <img src="../assets/research/cvis-fig-temporal-coherence.webp" alt="Temporal-coherence filtering in an operational thermal scene. The true UAV track remains consistent with the predicted path, while thermally salient but motion-incoherent false alarms are rejected." loading="lazy" decoding="async">
+        <figcaption>Temporal-coherence filtering in an operational thermal scene. The true UAV track remains consistent with the predicted path, while thermally salient but motion-incoherent false alarms are rejected.</figcaption>
+      </figure>
+
+      <div class="warn">
+        <span class="t">What the numbers do and do not include</span>
+        <p>The paper states this itself: every benchmark figure above is measured <strong>at the detector stage</strong>, before the BoT-SORT tracker and the temporal-coherence filter are applied. Those two are part of the deployment stack, not part of the scores. The intent is to isolate what the motion-enhanced detector contributes from what downstream heuristics clean up afterwards.</p>
+      </div>
+
+      <details class="bib" id="bib-cvis2025">
+        <summary>BibTeX</summary>
+<pre>@article{maser2025cvis,
+  author  = {Maser, Bob and Srebrnjak Yang, Adam and Ramlal, Adrian and Zelek, John},
+  title   = {Optical Flow-Enhanced Thermal UAV Detection Under Camera Ego-Motion
+             for Real-Time Tactical C-UAV},
+  journal = {Journal of Computational Vision and Imaging Systems},
+  volume  = {11},
+  number  = {1},
+  pages   = {122--127},
+  year    = {2025},
+  url     = {https://openjournals.uwaterloo.ca/index.php/vsl/article/view/7216}
+}</pre>
+      </details>
+    </section>
+
+  </div>
+</main>
+
+<footer id="contact">
+  <div class="wrap foot-grid">
+    <p class="foot-note">Bob Maser. Computer Vision Researcher and Machine Learning Engineer, Canada. The best way to reach me is <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">linkedin.com/in/bobmaser</a>.</p>
+    <div class="foot-links">
+      <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/BMaser" rel="noopener">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=lzCKAYAAAAAJ" rel="noopener">Google Scholar</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

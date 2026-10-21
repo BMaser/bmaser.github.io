@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Satellite imagery</title>
+<meta name="description" content="Segmenting sealed surfaces from satellite imagery for urbanisation tracking and land-use monitoring.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Satellite imagery">
+<meta property="og:description" content="Segmenting sealed surfaces from satellite imagery for urbanisation tracking and land-use monitoring.">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="../assets/page.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="topnav" aria-label="Site navigation">
+  <div class="wrap">
+    <a class="nav-mark" href="../index.html">Bob Maser</a>
+    <a class="nav-link" href="../index.html#about">About</a>
+    <a class="nav-link" href="../index.html#experience">Experience</a>
+    <a class="nav-link" href="../index.html#research">Research</a>
+    <a class="nav-link" href="../index.html#skills">Skills</a>
+    <a class="nav-link" href="../index.html#publications">Publications</a>
+    <a class="nav-link" href="../index.html#education">Education</a>
+    <a class="nav-link" href="../courses.html">Courses</a>
+    <a class="nav-link" href="../index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="kicker">Earlier work &middot; sealed-surface detection</p>
+    <h1>Satellite imagery</h1>
+    <p class="lede">Segmenting sealed surfaces from satellite imagery for urbanisation tracking and land-use monitoring.</p>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap band">
+
+    <div class="note">
+      <span class="t">Status</span>
+      <p>Earlier work at the University of Salzburg (2018 to 2022; this project Feb to Jul 2022). Unpublished; no results are quoted on this page.</p>
+    </div>
+
+    <section class="sec" style="margin-top:clamp(2rem,5vw,3rem)">
+      <h2>The task</h2>
+      <p>A <em>sealed surface</em> is ground that rain cannot penetrate: asphalt, concrete, roofing. The proportion of sealed surface in a given area is a direct input to urbanisation tracking, storm-water and flood-risk planning, urban heat-island assessment, and land-use policy. Measuring it by survey is slow and expensive; measuring it from satellite imagery is a segmentation problem.</p>
+    </section>
+
+    <section class="sec">
+      <h2>Why it is harder than it sounds</h2>
+      <ul class="bullets">
+        <li><strong>Class confusion.</strong> Bare rock, dry soil and gravel share the spectral signature of concrete. Spectral thresholds alone do not separate them.</li>
+        <li><strong>Resolution.</strong> At typical satellite ground sample distances a single pixel straddles road, verge and roof, so the label is genuinely mixed rather than merely uncertain.</li>
+        <li><strong>Seasonal drift.</strong> Vegetation cover changes what is visible between acquisitions, so a model trained on one season degrades on another.</li>
+        <li><strong>Label scarcity.</strong> Ground-truth sealing maps are expensive, so labelled area is small relative to the area to be predicted.</li>
+      </ul>
+    </section>
+
+    <section class="sec">
+      <h2>The input</h2>
+      <p>Four bands, not three: <strong>RGB plus near-infrared</strong>. The NIR band is what makes the task tractable: healthy vegetation reflects strongly in the near-infrared and sealed surfaces do not, so the separation that is ambiguous in visible light becomes visible once the fourth band is in the stack. Bare rock and dry soil are the residual hard cases, since they are dark in NIR too.</p>
+      <figure style="max-width:520px">
+        <img src="../assets/research/hallein-aerial.webp" alt="Aerial view of Hallein, Austria: roofs, roads and industrial sites next to fields, forest and the Salzach river." loading="lazy" decoding="async">
+        <figcaption>Aerial view of Hallein, Austria. Sealed surfaces (roofs, roads, industrial sites) sit next to fields, forest and the Salzach river: the mix of classes the task has to separate. Illustration of the scene type, not a result from the project.</figcaption>
+      </figure>
+    </section>
+
+    <section class="sec">
+      <h2>Approach</h2>
+      <p>Classical and deep segmentation pipelines evaluated side by side, with the classical baseline kept in place as a check on whether the learned model is earning its complexity on this data rather than memorising a season. Implemented in Python and Jupyter.</p>
+      <div class="note">
+        <span class="t">Code</span>
+        <p>The implementation lives in a private repository. Happy to walk through it on request.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer id="contact">
+  <div class="wrap foot-grid">
+    <p class="foot-note">Bob Maser. Computer Vision Researcher and Machine Learning Engineer, Canada. The best way to reach me is <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">linkedin.com/in/bobmaser</a>.</p>
+    <div class="foot-links">
+      <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/BMaser" rel="noopener">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=lzCKAYAAAAAJ" rel="noopener">Google Scholar</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

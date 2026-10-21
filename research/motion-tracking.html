@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motion from a monocular camera</title>
+<meta name="description" content="Detecting and 3-D-tracking rigid and non-rigid objects from a single moving camera.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Motion from a monocular camera">
+<meta property="og:description" content="Detecting and 3-D-tracking rigid and non-rigid objects from a single moving camera.">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="../assets/page.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="topnav" aria-label="Site navigation">
+  <div class="wrap">
+    <a class="nav-mark" href="../index.html">Bob Maser</a>
+    <a class="nav-link" href="../index.html#about">About</a>
+    <a class="nav-link" href="../index.html#experience">Experience</a>
+    <a class="nav-link" href="../index.html#research">Research</a>
+    <a class="nav-link" href="../index.html#skills">Skills</a>
+    <a class="nav-link" href="../index.html#publications">Publications</a>
+    <a class="nav-link" href="../index.html#education">Education</a>
+    <a class="nav-link" href="../courses.html">Courses</a>
+    <a class="nav-link" href="../index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="kicker">In progress &middot; monocular camera</p>
+    <h1>Rigid and non-rigid motion</h1>
+    <p class="lede">Detecting and 3-D-tracking rigid and non-rigid objects from a single moving camera.</p>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap band">
+
+    <div class="note">
+      <span class="t">Status</span>
+      <p>Active work at the University of Waterloo VIP Lab. No manuscript submitted, and no benchmark numbers are quoted on this page. What follows is the problem and the approach, not a results claim.</p>
+    </div>
+
+    <section class="sec" style="margin-top:clamp(2rem,5vw,3rem)">
+      <h2>The problem</h2>
+      <p>A camera on a moving platform sees a scene in which everything moves at once: the camera, the target, and the background. Recovering <em>what the target is doing</em> means separating three motions that arrive superimposed in a single 2-D image stream, with no stereo baseline and no active depth sensor to fall back on.</p>
+      <p>Rigid targets and non-rigid ones fail differently. A rigid body&rsquo;s motion can be explained by one transform; a deforming body cannot, and a pipeline that assumes rigidity will quietly mis-attribute deformation to translation.</p>
+    </section>
+
+    <section class="sec">
+      <h2>The approach</h2>
+      <p>A multi-cue pipeline, each cue covering a different failure mode of the others:</p>
+      <div class="tablewrap">
+        <table>
+          <caption>Cues fused in the pipeline</caption>
+          <thead><tr><th>Cue</th><th>What it contributes</th></tr></thead>
+          <tbody>
+            <tr><td>Dense optical flow (RAFT)</td><td>2-D correspondence between consecutive frames</td></tr>
+            <tr><td>Optical expansion</td><td>Change in apparent size, the depth-rate signal flow alone cannot give</td></tr>
+            <tr><td>Monocular metric depth (Metric3D)</td><td>Absolute scale, so velocities come out in metres per second</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:1.25rem">Fusing these yields, per target, an estimate of depth, velocity, time-to-collision, and a 3-D intercept solution, from one camera.</p>
+    </section>
+
+    <section class="sec">
+      <h2>Why it matters</h2>
+      <p>The same constraint drives the <a href="counter-uav.html">counter-UAV work</a>: when the platform moves, the motion cue that makes a small target visible is exactly the cue that camera ego-motion destroys. That paper solved a narrow version of the problem: detection, in thermal, with flow channels. This is the general version, in 3-D.</p>
+    </section>
+
+  </div>
+</main>
+
+<footer id="contact">
+  <div class="wrap foot-grid">
+    <p class="foot-note">Bob Maser. Computer Vision Researcher and Machine Learning Engineer, Canada. The best way to reach me is <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">linkedin.com/in/bobmaser</a>.</p>
+    <div class="foot-links">
+      <a href="https://www.linkedin.com/in/bobmaser/" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/BMaser" rel="noopener">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=lzCKAYAAAAAJ" rel="noopener">Google Scholar</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
